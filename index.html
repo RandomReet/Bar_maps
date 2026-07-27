@@ -56,6 +56,7 @@
     /* “обложка”, которая анимируется из маркера */
     .place-hero {
       position: absolute;
+      z-index: 0;
       width: 100%;
       height: 100%;
       transform: translate(50%, 50%) scale(1);
@@ -197,6 +198,89 @@
       pointer-events: none;
       opacity: 0.9;
     }
+
+        /* bottom sheet */
+    .place-more-btn{
+      margin-top: 10px;
+      display: inline-flex;
+      align-items: center;
+      background: transparent;
+      color: transparent;
+      padding: 10px 14px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: 700;
+      border: 0;
+
+      position: absolute;
+      left: 50%;
+      bottom: 70px;
+      transform: translateX(-50%);
+      color: rgba(255,255,255,0.85);
+      font-size: 20px;
+      text-shadow: 0 10px 30px rgba(0,0,0,0.35);
+      opacity: 0.9;
+      
+    }
+
+    .place-more-btn:focus-visible{
+      outline: 2px solid rgba(46,168,255,0.9);
+      outline-offset: 4px;
+    }
+
+    .place-sheet{
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0; 
+
+      /* прячем снизу */
+      transform: translateY(100%);
+      transition: transform 1260ms cubic-bezier(.2,.9,.2,1);
+
+      /* чтобы выглядело как “лист” */
+      background: transparent;
+      backdrop-filter: blur(10px);
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+
+      max-height: 100%;
+      overflow: auto;
+
+      /* поверх картинки */
+      z-index: 5;
+    }
+
+    .place-sheet.is-opened{
+      transform: translateY(0%);
+    }
+
+    .place-sheet__handle{
+      width: 52px;
+      height: 5px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.28);
+      margin: 10px auto 8px;
+    }
+
+    .place-sheet__content{
+      padding: 0 16px 16px;
+      color: #d7e7ff;
+    }
+
+    .place-sheet__title{
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .place-sheet__text{
+      font-size: 14px;
+      line-height: 1.45;
+      opacity: 0.95;
+      white-space: pre-wrap; /* чтобы переносы сохранились */
+    }
+
   </style>
 </head>
 
@@ -218,17 +302,36 @@
           </div>
 
           <div class="place-gallery__hint"></div>
+
         </div>
 
         <div class="place-hero__top">
           <div class="place-hero__title" id="placeHeroTitle"></div>
         </div>
 
+        <!-- Новое: выезжающий снизу блок -->
+          <div class="place-sheet" id="placeSheet">
+            <div class="place-sheet__handle" aria-hidden="true"></div>
+            <div class="place-sheet__content">
+              <div class="place-sheet__title">Подробное описание</div>
+              <div class="place-sheet__text" id="placeSheetText"></div>
+            </div>
+          </div>
+
         <div class="place-hero__bottom">
           <div class="place-hero__address" id="placeHeroAddress"></div>
           <div class="place-hero__tag" id="placeHeroTag"></div>
-          <a class="place-hero__link" id="placeHeroLink" target="_blank" rel="noopener" href="#">Открыть пост</a>
+
+          <a class="place-hero__link" id="placeHeroLink" target="_blank" rel="noopener" href="#"></a>
+
+          <!-- Новое: кнопка -->
+          <button class="place-more-btn" id="placeMoreBtn" type="button">
+            Подробнее
+          </button>
+
+        
         </div>
+
       </div>
     </div>
   </div>
@@ -244,6 +347,19 @@
         lng: 37.646372,
         tag: "#Красные_ворота",
         link: "https://t.me/glfmgfldofkom/2",
+        description: `
+        "Мясницкий" создан для настоящих болельщиков. Большие экраны расположены так, чтобы с каждого места в зале было комфортно наблюдать за игрой. Здесь регулярно проходят трансляции ключевых матчей и турниров. Атмосфера настолько заряжена спортом, что это место называют центром спортивной жизни города. В баре есть бонусная система, особенно интересная для фанатов "Спартака".
+        Чек средний/выше среднего, ₽₽
+
+        http://myasnitskiybar.ru
+        https://t.me/myasnitskiybar
+        ☎️ +79268685668
+        вс-чт 12:00-00:00, пт-сб 12:00-02:00
+        Мясницкий пр., 2/1
+        55.768390, 37.646372
+        #Красные_ворота
+          `,
+
         images: [
           "images/photo_5411372173072472756_y.jpg",
           "images/photo_5393545456043892117_y.jpg",
@@ -258,6 +374,20 @@
         lng: 37.592132,
         tag: "#Белорусская",
         link: "https://t.me/glfmgfldofkom/5",
+        description: `
+        Заведение небольшое и камерное, поэтому для большой компании или в популярные вечера лучше заранее забронировать столик. Бармены отзывчивы - не стесняйтесь обсуждать идеи для коктейля. "Мясницкий" создан для настоящих болельщиков. Большие экраны расположены так, чтобы с каждого места в зале было комфортно наблюдать за игрой. Здесь регулярно проходят трансляции ключевых матчей и турниров. Атмосфера настолько заряжена спортом, что это место называют центром спортивной жизни города. В баре есть бонусная система, особенно интересная для фанатов "Спартака".
+Чек средний/выше среднего, ₽₽
+        🔠Чек: средний/выше среднего, ₽₽
+
+        🔠нет
+        😀 https://t.me/MTheBar
+        ☎️ +79032979007
+        🕰️ ср-сб 17:00-01:00, вск 17:00-00:00, пн-вт выходной
+        ➡️Лесная ул., 20, стр. 1
+        55.780522, 37.592132
+        🔠#Белорусская
+          `,
+
         images: [
           "images/photo_5393545456043892116_y.jpg",
           "images/photo_5411372173072472757_y.jpg",
@@ -306,6 +436,10 @@
     const placeGalleryTrack = document.getElementById('placeGalleryTrack');
     const galleryPrev = document.getElementById('galleryPrev');
     const galleryNext = document.getElementById('galleryNext');
+
+    const placeMoreBtn = document.getElementById('placeMoreBtn');
+    const placeSheet = document.getElementById('placeSheet');
+    const placeSheetText = document.getElementById('placeSheetText');
 
     let isModalOpen = false;
 
@@ -415,6 +549,9 @@
     function openPlaceModal(p, fromEl) {
       renderGallery(p.images);
 
+      placeSheetText.textContent = p.description || '—';
+      setSheetOpened(false); // при открытии модалки прячем sheet
+
       placeHeroTitle.textContent = p.title || '';
       placeHeroAddress.textContent = p.address || '';
 
@@ -457,6 +594,10 @@
       });
     }
 
+    function setSheetOpened(opened){
+      placeSheet.classList.toggle('is-opened', opened);
+    }
+
     function closePlaceModal() {
       if (!isModalOpen) return;
       placeModal.classList.remove('is-open');
@@ -468,6 +609,13 @@
       e.preventDefault();
       e.stopPropagation();
       closePlaceModal();
+    });
+
+    placeMoreBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const opened = !placeSheet.classList.contains('is-opened');
+      setSheetOpened(opened);
     });
 
     placeModal.addEventListener('click', (e) => {
@@ -520,11 +668,7 @@
         <div class="popup-title">${escapeHtml(p.title || '')}</div>
         <div>${escapeHtml(p.address || '')}</div>
         ${p.tag ? `<div>${escapeHtml(p.tag)}</div>` : ''}
-        ${
-          p.link
-            ? `<a class="popup-link" target="_blank" rel="noopener" href="${escapeAttr(p.link)}">Открыть пост</a>`
-            : ''
-        }
+       
       `;
 
       const popup = new maplibregl.Popup({ offset: [0, -40], closeButton: false }).setHTML(popupHtml);
