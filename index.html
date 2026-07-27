@@ -93,6 +93,7 @@
 
     .place-hero__address {
       opacity: 0.95;
+      color: #fff;
       font-size: 14px;
       margin-bottom: 10px;
       text-shadow: 0 10px 30px rgba(0,0,0,0.35);
@@ -236,7 +237,7 @@
       top: 0; 
 
       /* прячем снизу */
-      transform: translateY(100%);
+      transform: translateY(90%);
       transition: transform 1260ms cubic-bezier(.2,.9,.2,1);
 
       /* чтобы выглядело как “лист” */
@@ -307,6 +308,8 @@
 
         <div class="place-hero__top">
           <div class="place-hero__title" id="placeHeroTitle"></div>
+          <div class="place-hero__address" id="placeHeroAddress"></div>
+
         </div>
 
         <!-- Новое: выезжающий снизу блок -->
@@ -319,12 +322,13 @@
           </div>
 
         <div class="place-hero__bottom">
-          <div class="place-hero__address" id="placeHeroAddress"></div>
           <div class="place-hero__tag" id="placeHeroTag"></div>
 
           <a class="place-hero__link" id="placeHeroLink" target="_blank" rel="noopener" href="#"></a>
 
           <!-- Новое: кнопка -->
+
+
           <button class="place-more-btn" id="placeMoreBtn" type="button">
             Подробнее
           </button>
@@ -438,6 +442,7 @@
     const galleryNext = document.getElementById('galleryNext');
 
     const placeMoreBtn = document.getElementById('placeMoreBtn');
+    placeMoreBtn.style.display = 'none';
     const placeSheet = document.getElementById('placeSheet');
     const placeSheetText = document.getElementById('placeSheetText');
 
@@ -612,6 +617,14 @@
     });
 
     placeMoreBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const opened = !placeSheet.classList.contains('is-opened');
+      setSheetOpened(opened);
+    });
+
+
+    placeSheet.addEventListener('click', (e) => {
       e.preventDefault();
       e.stopPropagation();
       const opened = !placeSheet.classList.contains('is-opened');
