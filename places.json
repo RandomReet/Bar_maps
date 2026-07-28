@@ -28,5 +28,17 @@
       "images/photo_5411372173072472758_y.jpg",
       "images/photo_5411372173072472759_y.jpg"
     ]
+  },
+  {
+    "title": "Новый Бар",
+    "address": "ул. Примерная, 10",
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "tag": "#Центр",
+    "link": "https://t.me/example",
+    "description": "Описание нового прекрасного бара\nЧек: ₽₽",
+    "images": [
+      "images/new_bar_1.jpg"
+    ]
   }
 ]
