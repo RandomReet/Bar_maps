@@ -40,5 +40,17 @@
     "images": [
       "images/photo_5411372173072472759_y.jpg"
     ]
+  },
+  {
+    "title": "Новый Бар 2",
+    "address": "ул. Примерная, 101",
+    "lat": 55.1558,
+    "lng": 37.4173,
+    "tag": "#Центр",
+    "link": "https://t.me/example",
+    "description": "Описание нового 2 прекрасного бара\nЧек: ₽₽",
+    "images": [
+      "images/photo_5393545456043892117_y.jpg"
+    ]
   }
 ]
