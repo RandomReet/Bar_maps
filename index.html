@@ -389,11 +389,19 @@
   const placeSheetText = document.getElementById('placeSheetText');
   const placeHeroPhone = document.getElementById('placeHeroPhone');
   placeHeroPhone.addEventListener('click', (e) => {
-    const href = placeHeroPhone.getAttribute('href');
-    if (href && href.startsWith('tel:')) {
-      window.location.href = href; // принудительно
-    }
+    const href = placeHeroPhone.getAttribute('href') || '';
+    if (!href.startsWith('tel:')) return;
+  
+    e.preventDefault();
+    e.stopPropagation
+
+    console.log('PHONE CLICK href:', href);
+
+  
+    // принудительно
+    window.location.assign(href);
   });
+
 
 
   placeMoreBtn.style.display = 'none';
