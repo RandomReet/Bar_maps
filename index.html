@@ -11,23 +11,6 @@
     html, body { height: 100%; margin: 0; background: #0b0f19; }
     #map { height: 100%; width: 100%; }
 
-    .place-sheet { outline: 2px solid red; }
-
-    .place-hero { pointer-events: none; }
-
-    .place-hero__phone-link,
-    .place-gallery__btn,
-    .place-more-btn,
-    .place-modal__close,
-    .popup-link {
-      pointer-events: auto;
-    }
-
-    .place-hero { pointer-events: none; }
-    .place-hero__phone-link { pointer-events: auto; }
-
-
-
     .place-icon {
       width: 44px;
       height: 44px;
@@ -87,6 +70,7 @@
     .place-hero__top {
       position: absolute;
       background: linear-gradient(to bottom, rgba(0,0,0,0.62), rgba(0,0,0,0));
+      pointer-events: none;
       left: 0; right: 0; top: 0;
       padding: 16px;
     }
@@ -298,11 +282,6 @@
       white-space: pre-wrap; /* чтобы переносы сохранились */
     }
 
-    .place-hero__phone-link {
-      pointer-events: auto;
-    }
-
-
   </style>
 </head>
 
@@ -330,10 +309,6 @@
         <div class="place-hero__top">
           <div class="place-hero__title" id="placeHeroTitle"></div>
           <div class="place-hero__address" id="placeHeroAddress"></div>
-          <div class="place-hero__phone">    
-            <a id="placeHeroPhone" class="place-hero__phone-link" href="" rel="noopener"></a>  
-          </div>
-          <a href="tel:+74951234567">Позвонить</a>
 
         </div>
 
@@ -355,7 +330,6 @@
 
 
           <button class="place-more-btn" id="placeMoreBtn" type="button">
-            
             Подробнее
           </button>
 
@@ -405,22 +379,6 @@
   const placeMoreBtn = document.getElementById('placeMoreBtn');
   const placeSheet = document.getElementById('placeSheet');
   const placeSheetText = document.getElementById('placeSheetText');
-  const placeHeroPhone = document.getElementById('placeHeroPhone');
-  placeHeroPhone.addEventListener('click', (e) => {
-    const href = placeHeroPhone.getAttribute('href') || '';
-    if (!href.startsWith('tel:')) return;
-  
-    e.preventDefault();
-    e.stopPropagation
-
-    console.log('PHONE CLICK href:', href);
-
-  
-    // принудительно
-    window.location.assign(href);
-  });
-
-
 
   placeMoreBtn.style.display = 'none';
   let isModalOpen = false;
@@ -501,18 +459,6 @@
     setSheetOpened(false);
     placeHeroTitle.textContent = p.title || '';
     placeHeroAddress.textContent = p.address || '';
-    const rawPhone = p.phone || '';
-    if (rawPhone) {
-      const tel = rawPhone.replace(/[^\d+]/g, ''); // оставляем только цифры и +
-      placeHeroPhone.href = `tel:${tel}`;
-      placeHeroPhone.textContent = rawPhone;
-      placeHeroPhone.parentElement.style.display = '';
-    } else {
-      placeHeroPhone.href = '';
-      placeHeroPhone.textContent = '';
-      placeHeroPhone.parentElement.style.display = 'none';
-    }
-
     placeHeroTag.textContent = p.tag || '';
     placeHeroTag.style.display = p.tag ? '' : 'none';
     if (p.link) {
