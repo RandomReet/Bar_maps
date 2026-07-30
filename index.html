@@ -309,6 +309,9 @@
         <div class="place-hero__top">
           <div class="place-hero__title" id="placeHeroTitle"></div>
           <div class="place-hero__address" id="placeHeroAddress"></div>
+          <div class="place-hero__phone">    
+            <a id="placeHeroPhone" class="place-hero__phone-link" href="" target="_self" rel="noopener"></a>  
+          </div>
 
         </div>
 
@@ -379,6 +382,7 @@
   const placeMoreBtn = document.getElementById('placeMoreBtn');
   const placeSheet = document.getElementById('placeSheet');
   const placeSheetText = document.getElementById('placeSheetText');
+  const placeHeroPhone = document.getElementById('placeHeroPhone');
 
   placeMoreBtn.style.display = 'none';
   let isModalOpen = false;
@@ -459,6 +463,18 @@
     setSheetOpened(false);
     placeHeroTitle.textContent = p.title || '';
     placeHeroAddress.textContent = p.address || '';
+    const rawPhone = p.phone || '';
+    if (rawPhone) {
+      const tel = rawPhone.replace(/[^\d+]/g, ''); // оставляем только цифры и +
+      placeHeroPhone.href = `tel:${tel}`;
+      placeHeroPhone.textContent = rawPhone;
+      placeHeroPhone.parentElement.style.display = '';
+    } else {
+      placeHeroPhone.href = '';
+      placeHeroPhone.textContent = '';
+      placeHeroPhone.parentElement.style.display = 'none';
+    }
+
     placeHeroTag.textContent = p.tag || '';
     placeHeroTag.style.display = p.tag ? '' : 'none';
     if (p.link) {
