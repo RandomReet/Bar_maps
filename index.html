@@ -282,6 +282,11 @@
       white-space: pre-wrap; /* чтобы переносы сохранились */
     }
 
+    .place-hero__phone-link {
+      pointer-events: auto;
+    }
+
+
   </style>
 </head>
 
@@ -310,7 +315,7 @@
           <div class="place-hero__title" id="placeHeroTitle"></div>
           <div class="place-hero__address" id="placeHeroAddress"></div>
           <div class="place-hero__phone">    
-            <a id="placeHeroPhone" class="place-hero__phone-link" href="" target="_self" rel="noopener"></a>  
+            <a id="placeHeroPhone" class="place-hero__phone-link" href="" rel="noopener"></a>  
           </div>
 
         </div>
@@ -383,6 +388,13 @@
   const placeSheet = document.getElementById('placeSheet');
   const placeSheetText = document.getElementById('placeSheetText');
   const placeHeroPhone = document.getElementById('placeHeroPhone');
+  placeHeroPhone.addEventListener('click', (e) => {
+    const href = placeHeroPhone.getAttribute('href');
+    if (href && href.startsWith('tel:')) {
+      window.location.href = href; // принудительно
+    }
+  });
+
 
   placeMoreBtn.style.display = 'none';
   let isModalOpen = false;
