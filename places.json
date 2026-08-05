@@ -42,5 +42,16 @@
       "images/photo_69_2_IAA3kAAz0E.jpg",
       "images/photo_69_3_gADeQADPQQ.jpg"
     ]
+  },
+  {
+    "title": "Test_post_1",
+    "address": "Не указан",
+    "lat": null,
+    "lng": null,
+    "tag": null,
+    "link": "https://t.me/resender_skklgh/4",
+    "description": "Test_post_1",
+    "phone": null,
+    "images": []
   }
 ]
