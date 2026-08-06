@@ -282,6 +282,13 @@
       white-space: pre-wrap; /* чтобы переносы сохранились */
     }
 
+    .marker {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,.25);
+    }
+
+
   </style>
 </head>
 
@@ -528,125 +535,169 @@
     if (e.key === 'ArrowLeft') setGalleryIndex(galleryIndex - 1);
     if (e.key === 'ArrowRight') setGalleryIndex(galleryIndex + 1);
   });
-// ========= Map =========
-if (typeof maplibregl === 'undefined') {
-  throw new Error('maplibregl missing');
-}
 
-const map = new maplibregl.Map({
-  container: 'map',
-  style: {
-    version: 8,
-    sources: {
-      osm: {
+  // ========= Map =========
+  if (typeof maplibregl === 'undefined') {
+    throw new Error('maplibregl missing');
+  }
+
+  const map = new maplibregl.Map({
+    container: 'map',
+    style: {
+      version: 8,
+      sources: {
+        osm: {
+          type: 'raster',
+          tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+          tileSize: 256,
+          attribution: '&copy; OpenStreetMap contributors'
+        }
+      },
+      layers: [{
+        id: 'osm-tiles',
         type: 'raster',
-        tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
-        tileSize: 256,
-        attribution: '&copy; OpenStreetMap contributors'
-      }
+        source: 'osm',
+        minzoom: 0,
+        maxzoom: 19
+      }]
     },
-    layers: [{
-      id: 'osm-tiles',
-      type: 'raster',
-      source: 'osm',
-      minzoom: 0,
-      maxzoom: 19
-    }]
-  },
-  center: [MAP_CENTER[1], MAP_CENTER[0]],
-  zoom: MAP_ZOOM,
-  minZoom: 0,
-  maxZoom: 18
-});
+    center: [MAP_CENTER[1], MAP_CENTER[0]],
+    zoom: MAP_ZOOM,
 
-const markerEls = [];
-const BASE_SIZE = 44; // текущее из CSS: 44x44
-
-function preloadImage(url) {
-  if (!url) return Promise.resolve();
-  return new Promise((resolve) => {
-    const img = new Image();
-    img.onload = () => resolve();
-    img.onerror = () => resolve(); // чтобы падение одной картинки не стопорило всё
-    img.src = url;
+    minZoom: 0,
+    maxZoom: 18   // <-- поставь нужное значение
   });
-}
 
-// Функция для создания маркеров из массива данных
-function loadPlaces(places) {
-  places.forEach(p => {
-    const markerImg = p.icon;
-    const el = createMarkerElement(markerImg);
 
-    markerEls.push(el);
-    el.style.cursor = 'pointer';
+  const markerEls = [];
+  const BASE_SIZE = 44;
 
-    const popupHtml = `
-      <div class="popup-title">${escapeHtml(p.title || '')}</div>
-      <div>${escapeHtml(p.address || '')}</div>
-      ${p.tag ? `<div>${escapeHtml(p.tag)}</div>` : ''}
-    `;
+  // Кэш загруженных иконок
+  const imageCache = new Map();
 
-    const popup = new maplibregl.Popup({ offset: [0, -40], closeButton: false })
-      .setHTML(popupHtml);
+  function preloadImage(url) {
+    if (!url) return Promise.resolve();
 
-    new maplibregl.Marker({ element: el, anchor: 'bottom' })
-      .setLngLat([p.lng, p.lat])
-      .setPopup(popup)
-      .addTo(map);
-
-    el.addEventListener('click', (ev) => {
-      ev.preventDefault();
-      ev.stopPropagation();
-      openPlaceModal(p, el);
-    });
-  });
-}
-
-function updateMarkerSizes() {
-  if (!markerEls.length) return;
-  const z = map.getZoom();
-
-  const minZ = 10;
-  const maxZ = 20;
-
-  const t = Math.max(0, Math.min(1, (z - minZ) / (maxZ - minZ))); // 0..1
-  const size = (BASE_SIZE / 1.5) + (BASE_SIZE / 1.5) * t; // от 22 до 44
-
-  markerEls.forEach(el => {
-    el.style.width = `${size}px`;
-    el.style.height = `${size}px`;
-  });
-}
-
-map.on('zoom', updateMarkerSizes);
-
-// Загружаем JSON данные после инициализации карты
-map.on('load', async () => {
-  try {
-    const response = await fetch('places.json'); // убрал v=Date.now() (кеш не ломаем)
-    if (!response.ok) throw new Error('Failed to load places.json');
-    const placesData = await response.json();
-
-    // Предзагрузка иконок пачками
-    const iconUrls = placesData
-      .map(p => p.icon)
-      .filter(Boolean);
-
-    const BATCH_SIZE = 20;
-    for (let i = 0; i < iconUrls.length; i += BATCH_SIZE) {
-      const batch = iconUrls.slice(i, i + BATCH_SIZE);
-      await Promise.all(batch.map(preloadImage));
+    if (imageCache.has(url)) {
+      return imageCache.get(url);
     }
 
-    // После прогрева иконок создаём маркеры
-    loadPlaces(placesData);
-    updateMarkerSizes();
-    console.log('Places loaded successfully');
-  } catch (err) {
-    console.error('Error loading places:', err);
+    const promise = new Promise((resolve) => {
+      const img = new Image();
+      img.onload = () => resolve(img);
+      img.onerror = () => resolve(null);
+      img.src = url;
+    });
+
+    imageCache.set(url, promise);
+    return promise;
   }
-});
+
+  // Создание элемента маркера
+  function createMarkerElement(iconUrl) {
+    const el = document.createElement('div');
+    el.className = 'marker';
+
+    el.style.width = `${BASE_SIZE / 1.5}px`;
+    el.style.height = `${BASE_SIZE / 1.5}px`;
+    el.style.cursor = 'pointer';
+    el.style.backgroundSize = 'cover';
+    el.style.backgroundPosition = 'center';
+    el.style.backgroundRepeat = 'no-repeat';
+
+    // Сразу ставим фон, даже если картинка ещё не прогрузилась — браузер сам догрузит
+    if (iconUrl) {
+      el.style.backgroundImage = `url("${iconUrl}")`;
+    } else {
+      el.style.backgroundColor = '#999';
+    }
+
+    return el;
+  }
+
+  function loadPlaces(places) {
+    places.forEach(p => {
+      const markerImg = p.icon;
+      const el = createMarkerElement(markerImg);
+
+      markerEls.push(el);
+
+      const popupHtml = `
+        <div class="popup-title">${escapeHtml(p.title || '')}</div>
+        <div>${escapeHtml(p.address || '')}</div>
+        ${p.tag ? `<div>${escapeHtml(p.tag)}</div>` : ''}
+      `;
+
+      const popup = new maplibregl.Popup({
+        offset: [0, -40],
+        closeButton: false
+      }).setHTML(popupHtml);
+
+      new maplibregl.Marker({ element: el, anchor: 'bottom' })
+        .setLngLat([p.lng, p.lat])
+        .setPopup(popup)
+        .addTo(map);
+
+      el.addEventListener('click', (ev) => {
+        ev.preventDefault();
+        ev.stopPropagation();
+        openPlaceModal(p, el);
+      });
+
+      // Фоновая прогрузка иконки без ожидания
+      if (markerImg) {
+        preloadImage(markerImg);
+      }
+    });
+  }
+
+  function updateMarkerSizes() {
+    if (!markerEls.length) return;
+
+    const z = map.getZoom();
+    const minZ = 10;
+    const maxZ = 20;
+
+    const t = Math.max(0, Math.min(1, (z - minZ) / (maxZ - minZ)));
+    const size = (BASE_SIZE / 1.5) + (BASE_SIZE / 1.5) * t;
+
+    markerEls.forEach(el => {
+      el.style.width = `${size}px`;
+      el.style.height = `${size}px`;
+    });
+  }
+
+  map.on('zoom', updateMarkerSizes);
+
+  map.on('load', async () => {
+    try {
+      const response = await fetch('places.json');
+      if (!response.ok) throw new Error('Failed to load places.json');
+
+      const placesData = await response.json();
+
+      // Создаём маркеры сразу
+      loadPlaces(placesData);
+      updateMarkerSizes();
+
+      // Фоново прогреваем иконки после отображения карты
+      const iconUrls = [...new Set(
+        placesData.map(p => p.icon).filter(Boolean)
+      )];
+
+      requestIdleCallback?.(() => {
+        iconUrls.forEach(url => preloadImage(url));
+      }) || setTimeout(() => {
+        iconUrls.forEach(url => preloadImage(url));
+      }, 0);
+
+      console.log('Places loaded successfully');
+    } catch (err) {
+      console.error('Error loading places:', err);
+    }
+  });
+
+
 
 
 
