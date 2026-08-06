@@ -545,11 +545,21 @@
           attribution: '&copy; OpenStreetMap contributors'
         }
       },
-      layers: [{ id: 'osm-tiles', type: 'raster', source: 'osm', minzoom: 0, maxzoom: 19 }]
+      layers: [{
+        id: 'osm-tiles',
+        type: 'raster',
+        source: 'osm',
+        minzoom: 0,
+        maxzoom: 19
+      }]
     },
     center: [MAP_CENTER[1], MAP_CENTER[0]],
-    zoom: MAP_ZOOM
+    zoom: MAP_ZOOM,
+  
+    minZoom: 0,
+    maxZoom: 18   // <-- поставь нужное значение
   });
+
 
   // Функция для создания маркеров из массива данных
   function loadPlaces(places) {
