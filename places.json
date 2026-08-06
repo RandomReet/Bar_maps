@@ -15,10 +15,11 @@
       "images/photo_13_3_gADeQADPQQ.jpg",
       "images/photo_13_4_gADeQADPQQ.jpg",
       "images/photo_13_5_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_13.jpg"
   },
   {
-    "title": "Слёзы Берёзы",
+    "title": "#Бар",
     "address": "️ Бауманская ул., 15 (1подъезд)",
     "lat": 55.775722,
     "lng": 37.677706,
@@ -34,7 +35,8 @@
       "images/photo_19_4_gADeQADPQQ.jpg",
       "images/photo_19_5_gADeQADPQQ.jpg",
       "images/photo_19_6_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_19.jpg"
   },
   {
     "title": "Брюгге",
@@ -54,10 +56,11 @@
       "images/photo_26_5_IAA3kAAz0E.jpg",
       "images/photo_26_6_gADeQADPQQ.jpg",
       "images/photo_26_7_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_26.jpg"
   },
   {
-    "title": "Пестики-тычинки",
+    "title": "лабораторных работ",
     "address": "️ Большой Спасоглинищевский пер., 3, стр. 5",
     "lat": 55.756437,
     "lng": 37.635197,
@@ -71,7 +74,8 @@
       "images/photo_34_2_gADeQADPQQ.jpg",
       "images/photo_34_3_gADeQADPQQ.jpg",
       "images/photo_34_4_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_34.jpg"
   },
   {
     "title": "Дублинец",
@@ -84,10 +88,11 @@
     "phone": "+74959660906",
     "images": [
       "images/photo_39_0_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_39.jpg"
   },
   {
-    "title": "Под ведмачьим мечом",
+    "title": "Ведьмака",
     "address": "️Камергерский пер., 5/7, (этаж -1)",
     "lat": 55.760591,
     "lng": 37.614832,
@@ -97,10 +102,11 @@
     "phone": "+79100195533",
     "images": [
       "images/photo_40_0_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_40.jpg"
   },
   {
-    "title": "Шон О'Нилл",
+    "title": "#Ирландский_паб 🇮🇪",
     "address": "️ ул. Кузнецкий Мост, 11, стр. 1",
     "lat": 55.762227,
     "lng": 37.622208,
@@ -110,10 +116,11 @@
     "phone": "+74958230472",
     "images": [
       "images/photo_41_0_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_41.jpg"
   },
   {
-    "title": "Хиросима, моя любовь",
+    "title": "#Бар",
     "address": "️Спартаковская площадь, 16/15с2",
     "lat": 55.776259,
     "lng": 37.679637,
@@ -128,10 +135,11 @@
       "images/photo_42_3_gADeQADPQQ.jpg",
       "images/photo_42_4_gADeQADPQQ.jpg",
       "images/photo_42_5_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_42.jpg"
   },
   {
-    "title": "Abbey Players Pub",
+    "title": "#Ирландский_паб🇮🇪",
     "address": "️ ул. Новый Арбат, 5",
     "lat": 55.752597,
     "lng": 37.598043,
@@ -144,10 +152,11 @@
       "images/photo_48_1_gADeQADPQQ.jpg",
       "images/photo_48_2_gADeQADPQQ.jpg",
       "images/photo_48_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_48.jpg"
   },
   {
-    "title": "Евгенич",
+    "title": "Руки ВВерх! Бара",
     "address": "️ ул. Арбат, 6/2",
     "lat": 55.7517,
     "lng": 37.597486,
@@ -160,10 +169,11 @@
       "images/photo_52_1_gADeQADPQQ.jpg",
       "images/photo_52_2_gADeQADPQQ.jpg",
       "images/photo_52_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_52.jpg"
   },
   {
-    "title": "Tap & Barrel Pub",
+    "title": "#Ирландский_паб 🇮🇪",
     "address": "️ ул. Большая Дмитровка, 13",
     "lat": 55.762348,
     "lng": 37.613323,
@@ -176,7 +186,8 @@
       "images/photo_56_1_gADeQADPQQ.jpg",
       "images/photo_56_2_gADeQADPQQ.jpg",
       "images/photo_56_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_56.jpg"
   },
   {
     "title": "Разведка",
@@ -192,10 +203,11 @@
       "images/photo_60_1_gADeQADPQQ.jpg",
       "images/photo_60_2_IAA3kAAz0E.jpg",
       "images/photo_60_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_60.jpg"
   },
   {
-    "title": "КонтрРазведка",
+    "title": "Искусство войны",
     "address": "️ Новая площадь, 10",
     "lat": 55.757977,
     "lng": 37.627202,
@@ -208,10 +220,11 @@
       "images/photo_64_1_gADeQADPQQ.jpg",
       "images/photo_64_2_gADeQADPQQ.jpg",
       "images/photo_64_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_64.jpg"
   },
   {
-    "title": "Lion's Head",
+    "title": "#Ирландский_паб🇮🇪",
     "address": "️ ул. Мясницкая, 15",
     "lat": 55.763022,
     "lng": 37.634874,
@@ -224,7 +237,8 @@
       "images/photo_68_1_gADeQADPQQ.jpg",
       "images/photo_68_2_gADeQADPQQ.jpg",
       "images/photo_68_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_68.jpg"
   },
   {
     "title": "Штейгер",
@@ -240,10 +254,11 @@
       "images/photo_72_1_gADeQADPQQ.jpg",
       "images/photo_72_2_IAA3kAAz0E.jpg",
       "images/photo_72_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_72.jpg"
   },
   {
-    "title": "Clovelly Pub",
+    "title": "#Английский_паб 🇬🇧",
     "address": "️ Сретенский бульвар, д. 1",
     "lat": 55.767089,
     "lng": 37.631846,
@@ -258,10 +273,11 @@
       "images/photo_76_3_gADeQADPQQ.jpg",
       "images/photo_76_4_gADeQADPQQ.jpg",
       "images/photo_76_5_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_76.jpg"
   },
   {
-    "title": "Los Bandidos",
+    "title": "#Бар",
     "address": "️ул. Маросейка, 2/15с1 (этаж цокольный)",
     "lat": 55.757187,
     "lng": 37.632341,
@@ -274,10 +290,11 @@
       "images/photo_82_1_gADeQADPQQ.jpg",
       "images/photo_82_2_gADeQADPQQ.jpg",
       "images/photo_82_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_82.jpg"
   },
   {
-    "title": "Connolly Station",
+    "title": "#Ирландский_паб 🇮🇪",
     "address": "️Столешников пер., 8 (этаж 2, 3)",
     "lat": 55.762232,
     "lng": 37.612865,
@@ -290,10 +307,11 @@
       "images/photo_86_1_gADeQADPQQ.jpg",
       "images/photo_86_2_gADeQADPQQ.jpg",
       "images/photo_86_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_86.jpg"
   },
   {
-    "title": "Pharmacie",
+    "title": "#Бар",
     "address": "️Ходынский бульвар, 20А",
     "lat": 55.790782,
     "lng": 37.523213,
@@ -306,10 +324,11 @@
       "images/photo_90_1_gADeQADPQQ.jpg",
       "images/photo_90_2_gADeQADPQQ.jpg",
       "images/photo_90_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_90.jpg"
   },
   {
-    "title": "Клуб Алексея Козлова",
+    "title": "квартирника",
     "address": "️ул. Маросейка, 9 (этаж 2-4)",
     "lat": 55.757769,
     "lng": 37.634347,
@@ -322,10 +341,11 @@
       "images/photo_94_1_gADeQADPQQ.jpg",
       "images/photo_94_2_gADeQADPQQ.jpg",
       "images/photo_94_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_94.jpg"
   },
   {
-    "title": "Mitzva Bar",
+    "title": "#Бар",
     "address": "️ Пятницкая улица, д. 3/4, с. 1",
     "lat": 55.745498,
     "lng": 37.627032,
@@ -338,10 +358,11 @@
       "images/photo_98_1_IAA3kAAz0E.jpg",
       "images/photo_98_2_gADeQADPQQ.jpg",
       "images/photo_98_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_98.jpg"
   },
   {
-    "title": "Black Swan (The Black Swan Pub & Shop)",
+    "title": "10 из 10",
     "address": "️ул. Солянка, 1/2с1",
     "lat": 55.754031,
     "lng": 37.637524,
@@ -356,10 +377,11 @@
       "images/photo_102_3_gADeQADPQQ.jpg",
       "images/photo_102_4_gADeQADPQQ.jpg",
       "images/photo_102_5_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_102.jpg"
   },
   {
-    "title": "Libertines",
+    "title": "Вино и другие лекарства",
     "address": "️Ходынский бул., 20А",
     "lat": 55.790782,
     "lng": 37.523213,
@@ -372,10 +394,11 @@
       "images/photo_108_1_gADeQADPQQ.jpg",
       "images/photo_108_2_gADeQADPQQ.jpg",
       "images/photo_108_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_108.jpg"
   },
   {
-    "title": "Машенька и негрони",
+    "title": "#Бар",
     "address": "️Пятницкая ул., д. 2/38, с.1",
     "lat": 55.745524,
     "lng": 37.626412,
@@ -388,7 +411,8 @@
       "images/photo_112_1_IAA3kAAz0E.jpg",
       "images/photo_112_2_gADeQADPQQ.jpg",
       "images/photo_112_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_112.jpg"
   },
   {
     "title": "Дом, в котором",
@@ -404,7 +428,8 @@
       "images/photo_116_1_gADeQADPQQ.jpg",
       "images/photo_116_2_gADeQADPQQ.jpg",
       "images/photo_116_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_116.jpg"
   },
   {
     "title": "Курорт",
@@ -420,10 +445,11 @@
       "images/photo_120_1_IAA3kAAz0E.jpg",
       "images/photo_120_2_gADeQADPQQ.jpg",
       "images/photo_120_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_120.jpg"
   },
   {
-    "title": "Brasserie Lambic",
+    "title": "#Брассерия 🇧🇪",
     "address": "️ Гоголевский бул., 33/1",
     "lat": 55.750763,
     "lng": 37.599858,
@@ -436,10 +462,11 @@
       "images/photo_124_1_gADeQADPQQ.jpg",
       "images/photo_124_2_gADeQADPQQ.jpg",
       "images/photo_124_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_124.jpg"
   },
   {
-    "title": "Mandy’s Apothecary",
+    "title": "гомеопатию",
     "address": "️ул. Кузнецкий Мост, 19, стр. 1",
     "lat": 55.762308,
     "lng": 37.625837,
@@ -452,10 +479,11 @@
       "images/photo_128_1_gADeQADPQQ.jpg",
       "images/photo_128_2_gADeQADPQQ.jpg",
       "images/photo_128_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_128.jpg"
   },
   {
-    "title": "O’Donoghue’s Pub",
+    "title": "#Ирландский_паб 🇮🇪",
     "address": "️Пятницкая ул., 29",
     "lat": 55.740943,
     "lng": 37.62899,
@@ -468,10 +496,11 @@
       "images/photo_132_1_gADeQADPQQ.jpg",
       "images/photo_132_2_gADeQADPQQ.jpg",
       "images/photo_132_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_132.jpg"
   },
   {
-    "title": "Биржевик (Beerжевик)",
+    "title": "#Бар",
     "address": "️Пятницкая ул., 29",
     "lat": 55.740943,
     "lng": 37.62899,
@@ -484,10 +513,11 @@
       "images/photo_136_1_gADeQADPQQ.jpg",
       "images/photo_136_2_gADeQADPQQ.jpg",
       "images/photo_136_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_136.jpg"
   },
   {
-    "title": "Punch & Judy Pub",
+    "title": "Abbey Player's",
     "address": "️Пятницкая ул., 6/1с1",
     "lat": 55.744612,
     "lng": 37.626978,
@@ -500,10 +530,11 @@
       "images/photo_140_1_gADeQADPQQ.jpg",
       "images/photo_140_2_gADeQADPQQ.jpg",
       "images/photo_140_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_140.jpg"
   },
   {
-    "title": "Буква Ю",
+    "title": "#Бар",
     "address": "️Мясницкая ул., 24/7с1",
     "lat": 55.762693,
     "lng": 37.635179,
@@ -516,10 +547,11 @@
       "images/photo_144_1_gADeQADPQQ.jpg",
       "images/photo_144_2_gADeQADPQQ.jpg",
       "images/photo_144_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_144.jpg"
   },
   {
-    "title": "The Michael Collins Pub",
+    "title": "#Ирландский_паб 🇮🇪",
     "address": "️Цветной бул., 21, стр. 2",
     "lat": 55.772036,
     "lng": 37.620088,
@@ -532,10 +564,11 @@
       "images/photo_148_1_IAA3kAAz0E.jpg",
       "images/photo_148_2_gADeQADPQQ.jpg",
       "images/photo_148_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_148.jpg"
   },
   {
-    "title": "Концерт",
+    "title": "#Бар",
     "address": "️Пятницкая ул., 6/1",
     "lat": 55.744409,
     "lng": 37.627328,
@@ -548,10 +581,11 @@
       "images/photo_152_1_gADeQADPQQ.jpg",
       "images/photo_152_2_gADeQADPQQ.jpg",
       "images/photo_152_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_152.jpg"
   },
   {
-    "title": "Свинья и роза",
+    "title": "#Английский_паб🇬🇧",
     "address": "️Трубная ул., 14",
     "lat": 55.768891,
     "lng": 37.624948,
@@ -564,10 +598,11 @@
       "images/photo_156_1_gADeQADPQQ.jpg",
       "images/photo_156_2_gADeQADPQQ.jpg",
       "images/photo_156_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_156.jpg"
   },
   {
-    "title": "Geisha Superman",
+    "title": "Призрак в доспехах",
     "address": "️Малая Бронная ул., 2, стр. 1",
     "lat": 55.759127,
     "lng": 37.598303,
@@ -580,10 +615,11 @@
       "images/photo_160_1_gADeQADPQQ.jpg",
       "images/photo_160_2_gADeQADPQQ.jpg",
       "images/photo_160_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_160.jpg"
   },
   {
-    "title": "Хищник Стейки & Бургеры",
+    "title": "#Бар",
     "address": "️ ул. Рождественка, 5/7с1 (этаж 2)",
     "lat": 55.761593,
     "lng": 37.623232,
@@ -596,10 +632,11 @@
       "images/photo_164_1_gADeQADPQQ.jpg",
       "images/photo_164_2_gADeQADPQQ.jpg",
       "images/photo_164_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_164.jpg"
   },
   {
-    "title": "Земля, прощай!",
+    "title": "Союз",
     "address": "️ ул. Маросейка, 15",
     "lat": 55.757936,
     "lng": 37.636769,
@@ -612,7 +649,8 @@
       "images/photo_168_1_gADeQADPQQ.jpg",
       "images/photo_168_2_gADeQADPQQ.jpg",
       "images/photo_168_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_168.jpg"
   },
   {
     "title": "Преснявары",
@@ -628,10 +666,11 @@
       "images/photo_172_1_gADeQADPQQ.jpg",
       "images/photo_172_2_gADeQADPQQ.jpg",
       "images/photo_172_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_172.jpg"
   },
   {
-    "title": "Kwak (Квак)",
+    "title": "#Брассерия 🇧🇪",
     "address": "️ ул. Покровка, 2/1с1 (этаж цокольный)",
     "lat": 55.757946,
     "lng": 37.639114,
@@ -644,10 +683,11 @@
       "images/photo_176_1_gADeQADPQQ.jpg",
       "images/photo_176_2_gADeQADPQQ.jpg",
       "images/photo_176_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_176.jpg"
   },
   {
-    "title": "Salden’S Taphouse",
+    "title": "#Паб",
     "address": "️ Пятницкая ул., 3/4с1",
     "lat": 55.745498,
     "lng": 37.627032,
@@ -660,10 +700,11 @@
       "images/photo_180_1_gADeQADPQQ.jpg",
       "images/photo_180_2_gADeQADPQQ.jpg",
       "images/photo_180_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_180.jpg"
   },
   {
-    "title": "Дедушка настаивает",
+    "title": "Вокруг света",
     "address": "️ Никольская ул., 10",
     "lat": 55.757957,
     "lng": 37.624444,
@@ -676,7 +717,8 @@
       "images/photo_184_1_gADeQADPQQ.jpg",
       "images/photo_184_2_gADeQADPQQ.jpg",
       "images/photo_184_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_184.jpg"
   },
   {
     "title": "4 Brewers Pub",
@@ -692,10 +734,11 @@
       "images/photo_188_1_gADeQADPQQ.jpg",
       "images/photo_188_2_gADeQADPQQ.jpg",
       "images/photo_188_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_188.jpg"
   },
   {
-    "title": "Lumberjack",
+    "title": "для своих",
     "address": "️Большой Спасоглинищевский пер., 3, стр. 5",
     "lat": 55.756437,
     "lng": 37.635197,
@@ -708,10 +751,11 @@
       "images/photo_192_1_AAN5AAM9BA.jpg",
       "images/photo_192_2_IAA3kAAz0E.jpg",
       "images/photo_192_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_192.jpg"
   },
   {
-    "title": "Tipsy Pub",
+    "title": "уютными закоулками",
     "address": "️ Сущёвская ул., 9",
     "lat": 55.780578,
     "lng": 37.601672,
@@ -724,10 +768,11 @@
       "images/photo_196_1_gADeQADPQQ.jpg",
       "images/photo_196_2_gADeQADPQQ.jpg",
       "images/photo_196_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_196.jpg"
   },
   {
-    "title": "У Поттера",
+    "title": "Пенные зелья Хогсмида",
     "address": "️ Страстной бул., 4, стр. 3 (этаж -1)",
     "lat": 55.764987,
     "lng": 37.608212,
@@ -740,10 +785,11 @@
       "images/photo_204_1_gADeQADPQQ.jpg",
       "images/photo_204_2_gADeQADPQQ.jpg",
       "images/photo_204_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_204.jpg"
   },
   {
-    "title": "John Bull на 1905 года",
+    "title": "английского дома",
     "address": "️ ул. Красная Пресня, 25, стр. 1",
     "lat": 55.762287,
     "lng": 37.564859,
@@ -756,10 +802,11 @@
       "images/photo_208_1_AAN5AAM9BA.jpg",
       "images/photo_208_2_IAA3kAAz0E.jpg",
       "images/photo_208_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_208.jpg"
   },
   {
-    "title": "PARKA (Парка)",
+    "title": "Парка",
     "address": "️ ул. Маросейка, 6-8с1",
     "lat": 55.757506,
     "lng": 37.635206,
@@ -772,26 +819,11 @@
       "images/photo_212_1_gADeQADPQQ.jpg",
       "images/photo_212_2_gADeQADPQQ.jpg",
       "images/photo_212_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_212.jpg"
   },
   {
-    "title": "Гамбринус",
-    "address": "️ в зависимости от локации, смотреть на сайте",
-    "lat": null,
-    "lng": null,
-    "tag": "#Пивной_ресторан",
-    "link": "https://t.me/resender_skklgh/216",
-    "description": "#Пивной_ресторан\nГамбринус\n\nСеть пивных ресторанов \"Гамбринус\" это настоящая московская легенда, которая на протяжении многих лет остаётся точкой притяжения для ценителей хорошего пива и уютной атмосферы. История сети началась в 2007 году. Сегодня \"Гамбринус\" это объединение нескольких ресторанов по всей Москве, которые удачно сочетают в себе традиции пивной культуры и формат полноценного ресторана с качественной кухней и высоким уровнем сервиса.\n\n🤩Атмосфера\nКаждый ресторан сети уникален, но их объединяет атмосфера: на Киевской один из самых красивых ресторанов сети - высокие колонны, мебель из ценных пород дерева. На Профсоюзной — стиль лофт: кирпичные стены и деревянная мебель. На Сухаревской — двухэтажное здание с уютными кабинками и VIP-залом. А всего в Москве 11 локаций в разных частях города.\nВо многих заведениях есть караоке и большие экраны для просмотра спортивных трансляций.\n\n🍗Еда\nМеню — это авторская версия европейской кухни, где каждый найдёт блюдо по душе. В ассортименте более 6 видов колбасок, 8 видов стейков, супы, салаты, бургеры и горячие блюда.\nЧто попробовать: фирменное мясное ассорти, рибай на гриле, стейки на вулканических камнях, краба и шоколадный фондан.\n\n🍺Барная карта\nВ наличии более 25 сортов настоящего пива из Чехии, Германии, Бельгии и Англии. Также в баре большой выбор виски, текилы, рома, вина и авторские коктейли.\n\nРезюме\nЭтот ресторан подойдёт для деловых встреч, семейных ужинов, чтобы отметить какие-то события или посидеть с друзьями за кружечкой вкусного пива. Огромное количество акций, с которыми можно ознакомиться на сайте. Одна из любимых это внушительная порция разного мяса в комплекте с трехлитровым бочонком пива (как раз есть на фото). По воскресеньям и понедельникам все напитки на розлив удваиваются. Есть бесплатное детское меню по выходным с 12:00 до 16:00 для детей при заказе взрослого, а так же детские мероприятия и комнаты. Действует бонусная программа и скидки.\n🔠Чек: средний/выше среднего, ₽₽\n\n🔠 https://gambrinus.ru/\n😀 https://t.me/gambrinus2023\n☎️ в зависимости от локации, смотреть на сайте\n🕰️ пн-пт 11:00-00:00, сб-вс 12:00-00:00\n➡️ в зависимости от локации, смотреть на сайте\n🔠#Маяковская, #Филёвский_парк, #Парк_Культуры, #Киевская, #Марксистская, #Таганская, #Площадь_Ильича, #Римская, #Комсомольская, #Сухаревская, #Проспект_Мира, #Профсоюзная, #Академическая, #Перово, #Шоссе_Энтузиастов, #Коньково, #Теплый_стан, #Беляево, #Третьяковская, #Новокузнецкая\n\n#пабымосквы #обзор",
-    "phone": "️ в зависимости от локации, смотреть на сайте",
-    "images": [
-      "images/photo_216_0_gADeQADPQQ.jpg",
-      "images/photo_216_1_gADeQADPQQ.jpg",
-      "images/photo_216_2_gADeQADPQQ.jpg",
-      "images/photo_216_3_IAA3kAAz0E.jpg"
-    ]
-  },
-  {
-    "title": "Cross Case Pub",
+    "title": "#Английский_паб 🇬🇧",
     "address": "️ ул. Малая Дмитровка, 3",
     "lat": 55.76723,
     "lng": 37.606038,
@@ -804,10 +836,11 @@
       "images/photo_220_1_gADeQADPQQ.jpg",
       "images/photo_220_2_gADeQADPQQ.jpg",
       "images/photo_220_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_220.jpg"
   },
   {
-    "title": "Настоишная",
+    "title": "#Бар",
     "address": "️ 2-я Тверская-Ямская ул., 2",
     "lat": 55.770684,
     "lng": 37.596587,
@@ -820,10 +853,11 @@
       "images/photo_224_1_gADeQADPQQ.jpg",
       "images/photo_224_2_gADeQADPQQ.jpg",
       "images/photo_224_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_224.jpg"
   },
   {
-    "title": "Козловна",
+    "title": "Козловну",
     "address": "️ Мясницкая ул., 22, стр. 1",
     "lat": 55.762145,
     "lng": 37.63447,
@@ -836,10 +870,11 @@
       "images/photo_228_1_gADeQADPQQ.jpg",
       "images/photo_228_2_gADeQADPQQ.jpg",
       "images/photo_228_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_228.jpg"
   },
   {
-    "title": "Arrurru",
+    "title": "#Бар",
     "address": "️ ул. Остоженка, 3/14, Москва",
     "lat": 55.743857,
     "lng": 37.60196,
@@ -852,10 +887,11 @@
       "images/photo_232_1_gADeQADPQQ.jpg",
       "images/photo_232_2_IAA3kAAz0E.jpg",
       "images/photo_232_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_232.jpg"
   },
   {
-    "title": "William Bass",
+    "title": "#Английский_паб 🇬🇧",
     "address": "️ ул. Малая Якиманка, 9",
     "lat": 55.74002,
     "lng": 37.615928,
@@ -868,10 +904,11 @@
       "images/photo_236_1_gADeQADPQQ.jpg",
       "images/photo_236_2_gADeQADPQQ.jpg",
       "images/photo_236_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_236.jpg"
   },
   {
-    "title": "Howard Loves Craft (Говард)",
+    "title": "Красный Октябрь",
     "address": "️ Болотная наб., 7, стр. 3",
     "lat": 55.74036,
     "lng": 37.610413,
@@ -884,10 +921,11 @@
       "images/photo_240_1_gADeQADPQQ.jpg",
       "images/photo_240_2_gADeQADPQQ.jpg",
       "images/photo_240_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_240.jpg"
   },
   {
-    "title": "Черчилль",
+    "title": "#Английский_паб🇬🇧",
     "address": "️Ленинградский просп., 66",
     "lat": 55.802761,
     "lng": 37.526007,
@@ -900,10 +938,11 @@
       "images/photo_244_1_IAA3kAAz0E.jpg",
       "images/photo_244_2_gADeQADPQQ.jpg",
       "images/photo_244_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_244.jpg"
   },
   {
-    "title": "Лига Пап",
+    "title": "#Паб",
     "address": "️ ул. Большая Лубянка, 24/15с1",
     "lat": 55.765357,
     "lng": 37.631092,
@@ -916,10 +955,11 @@
       "images/photo_248_1_gADeQADPQQ.jpg",
       "images/photo_248_2_gADeQADPQQ.jpg",
       "images/photo_248_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_248.jpg"
   },
   {
-    "title": "Буховски'с",
+    "title": "#Бар",
     "address": "️ Славянская площадь, 2/5/4с2",
     "lat": 55.75284,
     "lng": 37.635404,
@@ -932,10 +972,11 @@
       "images/photo_252_1_IAA3kAAz0E.jpg",
       "images/photo_252_2_gADeQADPQQ.jpg",
       "images/photo_252_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_252.jpg"
   },
   {
-    "title": "Suckin’ Diesel",
+    "title": "Ливерпуля",
     "address": "️ Лесная ул., 20, стр. 1",
     "lat": 55.780522,
     "lng": 37.592132,
@@ -948,10 +989,11 @@
       "images/photo_256_1_IAA3kAAz0E.jpg",
       "images/photo_256_2_IAA3kAAz0E.jpg",
       "images/photo_256_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_256.jpg"
   },
   {
-    "title": "Mollie’s",
+    "title": "#Ирландский_паб🇮🇪",
     "address": "️ Мясницкая ул., 13, стр. 3",
     "lat": 55.762617,
     "lng": 37.634398,
@@ -964,10 +1006,11 @@
       "images/photo_260_1_IAA3kAAz0E.jpg",
       "images/photo_260_2_IAA3kAAz0E.jpg",
       "images/photo_260_3_AAN5AAM9BA.jpg"
-    ]
+    ],
+    "icon": "images/icon_260.jpg"
   },
   {
-    "title": "16 Тонн на Пресне",
+    "title": "Казбек",
     "address": "️ ул. Пресненский Вал, 6, стр. 1",
     "lat": 55.764313,
     "lng": 37.564383,
@@ -980,10 +1023,11 @@
       "images/photo_264_1_AAN5AAM9BA.jpg",
       "images/photo_264_2_IAA3kAAz0E.jpg",
       "images/photo_264_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_264.jpg"
   },
   {
-    "title": "Irishman Pub",
+    "title": "ГОООЛ!",
     "address": "️Звенигородское ш., 18/20к1",
     "lat": 55.764323,
     "lng": 37.556119,
@@ -996,10 +1040,11 @@
       "images/photo_268_1_IAA3kAAz0E.jpg",
       "images/photo_268_2_IAA3kAAz0E.jpg",
       "images/photo_268_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_268.jpg"
   },
   {
-    "title": "Винный факультет (Винфак)",
+    "title": "Винфак",
     "address": "️ Большой Трёхсвятительский пер., 2/1с1 (Красная дверь Гиперион, этаж 2)",
     "lat": 55.754674,
     "lng": 37.644809,
@@ -1012,10 +1057,11 @@
       "images/photo_272_1_IAA3kAAz0E.jpg",
       "images/photo_272_2_IAA3kAAz0E.jpg",
       "images/photo_272_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_272.jpg"
   },
   {
-    "title": "Русский паб",
+    "title": "Хреновухи",
     "address": "️ Тверской бул., 10, стр. 1",
     "lat": 55.759076,
     "lng": 37.60054,
@@ -1028,10 +1074,11 @@
       "images/photo_276_1_IAA3kAAz0E.jpg",
       "images/photo_276_2_IAA3kAAz0E.jpg",
       "images/photo_276_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_276.jpg"
   },
   {
-    "title": "Раскол",
+    "title": "дух братства",
     "address": "️ Новослободская ул., 18 (этаж цокольный)",
     "lat": 55.782329,
     "lng": 37.59939,
@@ -1044,10 +1091,11 @@
       "images/photo_280_1_gADeQADPQQ.jpg",
       "images/photo_280_2_IAA3kAAz0E.jpg",
       "images/photo_280_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_280.jpg"
   },
   {
-    "title": "Пигги",
+    "title": "Синеглазка",
     "address": "️ ул. Солянка, д. 4, стр. 4",
     "lat": 55.753706,
     "lng": 37.637219,
@@ -1060,10 +1108,11 @@
       "images/photo_284_1_IAA3kAAz0E.jpg",
       "images/photo_284_2_IAA3kAAz0E.jpg",
       "images/photo_284_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_284.jpg"
   },
   {
-    "title": "Mbar",
+    "title": "Депо. Лесная",
     "address": "️Лесная ул., 20, стр. 1",
     "lat": 55.780522,
     "lng": 37.592132,
@@ -1076,7 +1125,8 @@
       "images/photo_288_1_IAA3kAAz0E.jpg",
       "images/photo_288_2_IAA3kAAz0E.jpg",
       "images/photo_288_3_IAA3kAAz0E.jpg"
-    ]
+    ],
+    "icon": "images/icon_288.jpg"
   },
   {
     "title": "Мясницкий",
@@ -1092,10 +1142,11 @@
       "images/photo_292_1_gADeQADPQQ.jpg",
       "images/photo_292_2_gADeQADPQQ.jpg",
       "images/photo_292_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_292.jpg"
   },
   {
-    "title": "Шер Хауз (Share House)",
+    "title": "#Пивной_бар",
     "address": "️Оружейный пер., 3, стр. 2 (вход через арку с Оружейного Переулка)",
     "lat": 55.770851,
     "lng": 37.59674,
@@ -1108,7 +1159,8 @@
       "images/photo_296_1_gADeQADPQQ.jpg",
       "images/photo_296_2_IAA3kAAz0E.jpg",
       "images/photo_296_3_gADeQADPQQ.jpg"
-    ]
+    ],
+    "icon": "images/icon_296.jpg"
   },
   {
     "title": "ТЕСТЕО",
