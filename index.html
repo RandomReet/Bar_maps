@@ -555,17 +555,21 @@
     },
     center: [MAP_CENTER[1], MAP_CENTER[0]],
     zoom: MAP_ZOOM,
-  
+
     minZoom: 0,
     maxZoom: 18   // <-- поставь нужное значение
   });
 
+
+  const markerEls = [];
+  const BASE_SIZE = 44; // текущее из CSS: 44x44
 
   // Функция для создания маркеров из массива данных
   function loadPlaces(places) {
     places.forEach(p => {
       const markerImg = (p.images && p.images.length) ? p.images[0] : '';
       const el = createMarkerElement(markerImg);
+      markerEls.push(el);
       el.style.cursor = 'pointer';
 
       const popupHtml = `
@@ -589,18 +593,43 @@
     });
   }
 
+  function updateMarkerSizes() {
+    if (!markerEls.length) return;
+    const z = map.getZoom();
+
+
+    const minZ = 10;
+    const maxZ = 20;
+
+    const t = Math.max(0, Math.min(1, (z - minZ) / (maxZ - minZ))); // 0..1
+    const size = (BASE_SIZE / 1.5) + (BASE_SIZE / 1.5) * t; // от 22 до 44
+
+    markerEls.forEach(el => {
+      el.style.width = `${size}px`;
+      el.style.height = `${size}px`;
+    });
+  }
+
+map.on('zoom', updateMarkerSizes);
+
+
   // Загружаем JSON данные после инициализации карты
   map.on('load', async () => {
   try {
     const response = await fetch(`places.json?v=${Date.now()}`);
     if (!response.ok) throw new Error('Failed to load places.json');
     const placesData = await response.json();
+
     loadPlaces(placesData);
+    updateMarkerSizes(); // <-- ВАЖНО: после loadPlaces
     console.log('Places loaded successfully');
   } catch (err) {
     console.error('Error loading places:', err);
   }
 });
+
+
+
 
 </script>
 
