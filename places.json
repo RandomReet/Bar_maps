@@ -15,11 +15,10 @@
       "images/photo_13_3_gADeQADPQQ.jpg",
       "images/photo_13_4_gADeQADPQQ.jpg",
       "images/photo_13_5_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_13.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Слёзы Берёзы",
     "address": "️ Бауманская ул., 15 (1подъезд)",
     "lat": 55.775722,
     "lng": 37.677706,
@@ -35,13 +34,12 @@
       "images/photo_19_4_gADeQADPQQ.jpg",
       "images/photo_19_5_gADeQADPQQ.jpg",
       "images/photo_19_6_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_19.jpg"
+    ]
   },
   {
     "title": "Брюгге",
     "address": "️ Бауманская ул., 48/13",
-    "lat": 55.770036,
+    "lat": 55.770036, 
     "lng": 37.678882,
     "tag": "#Бельгийский_паб",
     "link": "https://t.me/resender_skklgh/26",
@@ -56,13 +54,12 @@
       "images/photo_26_5_IAA3kAAz0E.jpg",
       "images/photo_26_6_gADeQADPQQ.jpg",
       "images/photo_26_7_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_26.jpg"
+    ]
   },
   {
-    "title": "лабораторных работ",
+    "title": "Пестики-тычинки",
     "address": "️ Большой Спасоглинищевский пер., 3, стр. 5",
-    "lat": 55.756437,
+    "lat": 55.756437, 
     "lng": 37.635197,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/34",
@@ -74,13 +71,12 @@
       "images/photo_34_2_gADeQADPQQ.jpg",
       "images/photo_34_3_gADeQADPQQ.jpg",
       "images/photo_34_4_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_34.jpg"
+    ]
   },
   {
     "title": "Дублинец",
     "address": "️ул. Никольская 10, 2 этаж отдельный вход или через гастромаркет \"Вокруг света\"",
-    "lat": 55.757957,
+    "lat": 55.757957, 
     "lng": 37.624444,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/39",
@@ -88,13 +84,12 @@
     "phone": "+74959660906",
     "images": [
       "images/photo_39_0_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_39.jpg"
+    ]
   },
   {
-    "title": "Ведьмака",
+    "title": "Под ведмачьим мечом",
     "address": "️Камергерский пер., 5/7, (этаж -1)",
-    "lat": 55.760591,
+    "lat": 55.760591, 
     "lng": 37.614832,
     "tag": "#Таверна",
     "link": "https://t.me/resender_skklgh/40",
@@ -102,13 +97,12 @@
     "phone": "+79100195533",
     "images": [
       "images/photo_40_0_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_40.jpg"
+    ]
   },
   {
-    "title": "#Ирландский_паб 🇮🇪",
+    "title": "Шон О'Нилл",
     "address": "️ ул. Кузнецкий Мост, 11, стр. 1",
-    "lat": 55.762227,
+    "lat": 55.762227, 
     "lng": 37.622208,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/41",
@@ -116,11 +110,10 @@
     "phone": "+74958230472",
     "images": [
       "images/photo_41_0_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_41.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Хиросима, моя любовь",
     "address": "️Спартаковская площадь, 16/15с2",
     "lat": 55.776259,
     "lng": 37.679637,
@@ -135,13 +128,12 @@
       "images/photo_42_3_gADeQADPQQ.jpg",
       "images/photo_42_4_gADeQADPQQ.jpg",
       "images/photo_42_5_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_42.jpg"
+    ]
   },
   {
-    "title": "#Ирландский_паб🇮🇪",
+    "title": "Abbey Players Pub",
     "address": "️ ул. Новый Арбат, 5",
-    "lat": 55.752597,
+    "lat": 55.752597, 
     "lng": 37.598043,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/48",
@@ -152,13 +144,12 @@
       "images/photo_48_1_gADeQADPQQ.jpg",
       "images/photo_48_2_gADeQADPQQ.jpg",
       "images/photo_48_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_48.jpg"
+    ]
   },
   {
-    "title": "Руки ВВерх! Бара",
+    "title": "Евгенич",
     "address": "️ ул. Арбат, 6/2",
-    "lat": 55.7517,
+    "lat": 55.751700, 
     "lng": 37.597486,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/52",
@@ -169,13 +160,12 @@
       "images/photo_52_1_gADeQADPQQ.jpg",
       "images/photo_52_2_gADeQADPQQ.jpg",
       "images/photo_52_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_52.jpg"
+    ]
   },
   {
-    "title": "#Ирландский_паб 🇮🇪",
+    "title": "Tap & Barrel Pub",
     "address": "️ ул. Большая Дмитровка, 13",
-    "lat": 55.762348,
+    "lat": 55.762348, 
     "lng": 37.613323,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/56",
@@ -186,13 +176,12 @@
       "images/photo_56_1_gADeQADPQQ.jpg",
       "images/photo_56_2_gADeQADPQQ.jpg",
       "images/photo_56_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_56.jpg"
+    ]
   },
   {
     "title": "Разведка",
     "address": "️ Новая площадь, 10",
-    "lat": 55.757977,
+    "lat": 55.757977, 
     "lng": 37.627202,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/60",
@@ -203,13 +192,12 @@
       "images/photo_60_1_gADeQADPQQ.jpg",
       "images/photo_60_2_IAA3kAAz0E.jpg",
       "images/photo_60_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_60.jpg"
+    ]
   },
   {
-    "title": "Искусство войны",
+    "title": "КонтрРазведка",
     "address": "️ Новая площадь, 10",
-    "lat": 55.757977,
+    "lat": 55.757977, 
     "lng": 37.627202,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/64",
@@ -220,13 +208,12 @@
       "images/photo_64_1_gADeQADPQQ.jpg",
       "images/photo_64_2_gADeQADPQQ.jpg",
       "images/photo_64_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_64.jpg"
+    ]
   },
   {
-    "title": "#Ирландский_паб🇮🇪",
+    "title": "Lion's Head",
     "address": "️ ул. Мясницкая, 15",
-    "lat": 55.763022,
+    "lat": 55.763022, 
     "lng": 37.634874,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/68",
@@ -237,14 +224,13 @@
       "images/photo_68_1_gADeQADPQQ.jpg",
       "images/photo_68_2_gADeQADPQQ.jpg",
       "images/photo_68_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_68.jpg"
+    ]
   },
   {
     "title": "Штейгер",
     "address": "️ Архангельский переулок,8/2 стр.1",
-    "lat": 55.761811,
-    "lng": 37.63862,
+    "lat": 55.761811, 
+    "lng": 37.638620,
     "tag": "#Ресторан",
     "link": "https://t.me/resender_skklgh/72",
     "description": "#Ресторан\n\nРесторан-музей \"Штейгер\" - это настоящее путешествие во времени. Здесь стирается грань между изысканным ужином и захватывающей экскурсией в мир профессии шахтёра.\n\n⛏ Атмосфера\nМастерское сочетание грубой промышленной эстетики и тёплого, почти домашнего уюта. Каждая деталь этого места продумана так, чтобы гость почувствовал себя в роли горного инженера (ште́йгера) конца XIX — начала XX века.\n🔠Оценка: 9 из 10\n\n🍽 Еда\nГорячие и холодные закуски, супы, салаты, пицца, десерты, а также специальные блюда, идеально сочетающиеся с пивом.\n🔠Оценка: 9 из 10\n\n🍸 Барная карта\nРазливное и бутылочное пиво, большой выбор вина, домашних настоек, крепкого алкоголя. Вас точно заинтересует уникальная подача авторских коктейлей, которых тут очень много, чья необычность начинается с оформления меню.\n🔠Оценка: 9 из 10\n\n💎 Резюме\nМесто располагает к деловым и романтическим встречам, вечерам в кругу большой компании, семейным обедам и быстрым бизнес-ланчам. Одновременно основной зал может принять до 60 гостей. Дополнительно есть банкетные залы. Обслуживание — на высшем уровне. Всем посетителям проводят экскурсию по ресторану-музею.\n🔠Общая оценка: 9 из 10\n🔠Чек: средний/выше среднего, ₽₽₽\n\n🔠https://steiger.rest\n😀 https://t.me/steiger_rest\nТел.: +79995753231\nЧасы работы: ежедневно с 12:00 до 00:00\n➡️ Архангельский переулок,8/2 стр.1\n🔠 #Чистые_пруды, #Сретенская\n\n#пабымосквы #обзор\n\n*Дополнительные фото в комментариях \n⬇️⬇️⬇️",
@@ -254,11 +240,10 @@
       "images/photo_72_1_gADeQADPQQ.jpg",
       "images/photo_72_2_IAA3kAAz0E.jpg",
       "images/photo_72_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_72.jpg"
+    ]
   },
   {
-    "title": "#Английский_паб 🇬🇧",
+    "title": "Clovelly Pub",
     "address": "️ Сретенский бульвар, д. 1",
     "lat": 55.767089,
     "lng": 37.631846,
@@ -273,13 +258,12 @@
       "images/photo_76_3_gADeQADPQQ.jpg",
       "images/photo_76_4_gADeQADPQQ.jpg",
       "images/photo_76_5_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_76.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Los Bandidos",
     "address": "️ул. Маросейка, 2/15с1 (этаж цокольный)",
-    "lat": 55.757187,
+    "lat": 55.757187, 
     "lng": 37.632341,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/82",
@@ -290,13 +274,12 @@
       "images/photo_82_1_gADeQADPQQ.jpg",
       "images/photo_82_2_gADeQADPQQ.jpg",
       "images/photo_82_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_82.jpg"
+    ]
   },
   {
-    "title": "#Ирландский_паб 🇮🇪",
+    "title": "Connolly Station",
     "address": "️Столешников пер., 8 (этаж 2, 3)",
-    "lat": 55.762232,
+    "lat": 55.762232, 
     "lng": 37.612865,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/86",
@@ -307,13 +290,12 @@
       "images/photo_86_1_gADeQADPQQ.jpg",
       "images/photo_86_2_gADeQADPQQ.jpg",
       "images/photo_86_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_86.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Pharmacie",
     "address": "️Ходынский бульвар, 20А",
-    "lat": 55.790782,
+    "lat": 55.790782, 
     "lng": 37.523213,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/90",
@@ -324,13 +306,12 @@
       "images/photo_90_1_gADeQADPQQ.jpg",
       "images/photo_90_2_gADeQADPQQ.jpg",
       "images/photo_90_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_90.jpg"
+    ]
   },
   {
-    "title": "квартирника",
+    "title": "Клуб Алексея Козлова",
     "address": "️ул. Маросейка, 9 (этаж 2-4)",
-    "lat": 55.757769,
+    "lat": 55.757769, 
     "lng": 37.634347,
     "tag": "#джаз_клуб",
     "link": "https://t.me/resender_skklgh/94",
@@ -341,13 +322,12 @@
       "images/photo_94_1_gADeQADPQQ.jpg",
       "images/photo_94_2_gADeQADPQQ.jpg",
       "images/photo_94_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_94.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Mitzva Bar",
     "address": "️ Пятницкая улица, д. 3/4, с. 1",
-    "lat": 55.745498,
+    "lat": 55.745498, 
     "lng": 37.627032,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/98",
@@ -358,13 +338,12 @@
       "images/photo_98_1_IAA3kAAz0E.jpg",
       "images/photo_98_2_gADeQADPQQ.jpg",
       "images/photo_98_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_98.jpg"
+    ]
   },
   {
-    "title": "10 из 10",
+    "title": "Black Swan (The Black Swan Pub & Shop)",
     "address": "️ул. Солянка, 1/2с1",
-    "lat": 55.754031,
+    "lat": 55.754031, 
     "lng": 37.637524,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/102",
@@ -377,13 +356,12 @@
       "images/photo_102_3_gADeQADPQQ.jpg",
       "images/photo_102_4_gADeQADPQQ.jpg",
       "images/photo_102_5_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_102.jpg"
+    ]
   },
   {
-    "title": "Вино и другие лекарства",
+    "title": "Libertines",
     "address": "️Ходынский бул., 20А",
-    "lat": 55.790782,
+    "lat": 55.790782, 
     "lng": 37.523213,
     "tag": "#Английский_паб",
     "link": "https://t.me/resender_skklgh/108",
@@ -394,13 +372,12 @@
       "images/photo_108_1_gADeQADPQQ.jpg",
       "images/photo_108_2_gADeQADPQQ.jpg",
       "images/photo_108_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_108.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Машенька и негрони",
     "address": "️Пятницкая ул., д. 2/38, с.1",
-    "lat": 55.745524,
+    "lat": 55.745524, 
     "lng": 37.626412,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/112",
@@ -411,13 +388,12 @@
       "images/photo_112_1_IAA3kAAz0E.jpg",
       "images/photo_112_2_gADeQADPQQ.jpg",
       "images/photo_112_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_112.jpg"
+    ]
   },
   {
     "title": "Дом, в котором",
     "address": "️ ул. Покровка, 14/2с3 (этаж цокольный)",
-    "lat": 55.75861,
+    "lat": 55.758610, 
     "lng": 37.645357,
     "tag": "#Паб",
     "link": "https://t.me/resender_skklgh/116",
@@ -428,13 +404,12 @@
       "images/photo_116_1_gADeQADPQQ.jpg",
       "images/photo_116_2_gADeQADPQQ.jpg",
       "images/photo_116_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_116.jpg"
+    ]
   },
   {
     "title": "Курорт",
     "address": "️ ул. Пятницкая, 31, стр. 5",
-    "lat": 55.740613,
+    "lat": 55.740613, 
     "lng": 37.629232,
     "tag": "#Бар_рюмочная",
     "link": "https://t.me/resender_skklgh/120",
@@ -445,13 +420,12 @@
       "images/photo_120_1_IAA3kAAz0E.jpg",
       "images/photo_120_2_gADeQADPQQ.jpg",
       "images/photo_120_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_120.jpg"
+    ]
   },
   {
-    "title": "#Брассерия 🇧🇪",
+    "title": "Brasserie Lambic",
     "address": "️ Гоголевский бул., 33/1",
-    "lat": 55.750763,
+    "lat": 55.750763, 
     "lng": 37.599858,
     "tag": "#Брассерия",
     "link": "https://t.me/resender_skklgh/124",
@@ -462,13 +436,12 @@
       "images/photo_124_1_gADeQADPQQ.jpg",
       "images/photo_124_2_gADeQADPQQ.jpg",
       "images/photo_124_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_124.jpg"
+    ]
   },
   {
-    "title": "гомеопатию",
+    "title": "Mandy’s Apothecary",
     "address": "️ул. Кузнецкий Мост, 19, стр. 1",
-    "lat": 55.762308,
+    "lat": 55.762308, 
     "lng": 37.625837,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/128",
@@ -479,14 +452,13 @@
       "images/photo_128_1_gADeQADPQQ.jpg",
       "images/photo_128_2_gADeQADPQQ.jpg",
       "images/photo_128_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_128.jpg"
+    ]
   },
   {
-    "title": "#Ирландский_паб 🇮🇪",
+    "title": "O’Donoghue’s Pub",
     "address": "️Пятницкая ул., 29",
-    "lat": 55.740943,
-    "lng": 37.62899,
+    "lat": 55.740943, 
+    "lng": 37.628990,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/132",
     "description": "#Ирландский_паб 🇮🇪\nO’Donoghue’s Pub\n\nПроект компании PubLife Group. Его фасад в точности воспроизводит оригинальный фасад дублинского O'Donoghue's (для этого даже разобрали часть стены и заново возвели входную группу). Всю мебель и детали интерьера привезли из Ирландии.\n\n🤩Атмосфера\nДетали дизайна традиционно собраны на ирландских блошиных рынках, чтобы максимально передать аутентичность. В пабе четыре зоны, каждая со своей функцией: барная стойка (здесь установлен внушительный шкаф с коллекцией бутылок Guinness за все 300 лет существования бренда), кухня, секция для дегустации виски и сцена для музыкантов.\n🔠Оценка: 9 из 10\n\n🥩Еда\nБургеры, хот-доги, разнообразные горячие и холодные закуски (включая блюда на компанию), салаты, десерты и специальные закуски к пиву.\n🔠Оценка: 8 из 10\n\n🍻Барная карта\nПредставлено 40 видов пива от лучших пивоварен Англии и Ирландии, а также отечественное крафтовое. Кроме того, в ассортименте есть сидр, огромный выбор виски, авторские настойки, крепкий алкоголь и коктейли.\n🔠Оценка: 9 из 10\n\nРезюме\nОтличное место, чтобы хорошо провести время в компании друзей или коллег. Здесь проходят квизы, стендапы, а на стене установлен трехметровый экран для спортивных трансляций. Расписание трансляций и афишу выступлений можно найти на сайте паба.\n📍Есть программа привилегий.\n🔠Общая оценка: 9 из 10\n🔠Чек: средний/выше среднего, ₽₽\n\n🔠https://odpub.ru\n☎️+74951835953\n🕰️вс-чт 12:00-00:00, пт-сб 12:00-06:00\n➡️Пятницкая ул., 29\n🔠#Новокузнецкая, #Третьяковская\n\n#пабымосквы #обзор\n\n*Дополнительные фото в комментариях\n⬇️⬇️⬇️",
@@ -496,14 +468,13 @@
       "images/photo_132_1_gADeQADPQQ.jpg",
       "images/photo_132_2_gADeQADPQQ.jpg",
       "images/photo_132_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_132.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Биржевик (Beerжевик)",
     "address": "️Пятницкая ул., 29",
-    "lat": 55.740943,
-    "lng": 37.62899,
+    "lat": 55.740943, 
+    "lng": 37.628990,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/136",
     "description": "#Бар\nБиржевик (Beerжевик)\n\nСеть баров в Москве, где цены на напитки меняются в режиме реального времени в зависимости от их популярности.\n\n🤩Атмосфера\nСовременный дизайн в стиле крафтового паба, пронизанный азартом биржевых торгов.\n🔠Оценка: 6 из 10\n\n🌯Еда\nКолбаски, мак-фарш, жареные пельмени, чебуреки с крабом, фирменный бургер, супы, салаты, горячие и холодные закуски (биржевой сет).\n🔠Оценка: 7 из 10\n\n🥤Барная карта\nКрафтовое пиво на кранах, немного импорта в бутылках и банках, авторские коктейли, настойки.\n🔠Оценка: 7 из 10\n\nРезюме \nПодходит для отдыха и общения компаниями и любителей крафтового пива.\n🔠Общая оценка: 7 из 10\n🔠Чек: средний, ₽₽\n\n🔠https://beerzhevik.ru/ru\n😀@beerzhevik_ai_bot (бронирование)\n😀https://t.me/beerzhevik\n☎️+79256158158\n🕰️вс-чт 14:00-02:00, пт-сб 14:00-04:00\n➡️Пятницкая ул., 29\n🔠#Новокузнецкая, #Третьяковская\n\n#пабымосквы #обзор",
@@ -513,13 +484,12 @@
       "images/photo_136_1_gADeQADPQQ.jpg",
       "images/photo_136_2_gADeQADPQQ.jpg",
       "images/photo_136_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_136.jpg"
+    ]
   },
   {
-    "title": "Abbey Player's",
+    "title": "Punch & Judy Pub",
     "address": "️Пятницкая ул., 6/1с1",
-    "lat": 55.744612,
+    "lat": 55.744612, 
     "lng": 37.626978,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/140",
@@ -530,13 +500,12 @@
       "images/photo_140_1_gADeQADPQQ.jpg",
       "images/photo_140_2_gADeQADPQQ.jpg",
       "images/photo_140_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_140.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Буква Ю",
     "address": "️Мясницкая ул., 24/7с1",
-    "lat": 55.762693,
+    "lat": 55.762693, 
     "lng": 37.635179,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/144",
@@ -547,13 +516,12 @@
       "images/photo_144_1_gADeQADPQQ.jpg",
       "images/photo_144_2_gADeQADPQQ.jpg",
       "images/photo_144_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_144.jpg"
+    ]
   },
   {
-    "title": "#Ирландский_паб 🇮🇪",
+    "title": "The Michael Collins Pub",
     "address": "️Цветной бул., 21, стр. 2",
-    "lat": 55.772036,
+    "lat": 55.772036, 
     "lng": 37.620088,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/148",
@@ -564,13 +532,12 @@
       "images/photo_148_1_IAA3kAAz0E.jpg",
       "images/photo_148_2_gADeQADPQQ.jpg",
       "images/photo_148_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_148.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Концерт",
     "address": "️Пятницкая ул., 6/1",
-    "lat": 55.744409,
+    "lat": 55.744409, 
     "lng": 37.627328,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/152",
@@ -581,13 +548,12 @@
       "images/photo_152_1_gADeQADPQQ.jpg",
       "images/photo_152_2_gADeQADPQQ.jpg",
       "images/photo_152_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_152.jpg"
+    ]
   },
   {
-    "title": "#Английский_паб🇬🇧",
+    "title": "Свинья и роза",
     "address": "️Трубная ул., 14",
-    "lat": 55.768891,
+    "lat": 55.768891, 
     "lng": 37.624948,
     "tag": "#Английский_паб",
     "link": "https://t.me/resender_skklgh/156",
@@ -598,13 +564,12 @@
       "images/photo_156_1_gADeQADPQQ.jpg",
       "images/photo_156_2_gADeQADPQQ.jpg",
       "images/photo_156_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_156.jpg"
+    ]
   },
   {
-    "title": "Призрак в доспехах",
+    "title": "Geisha Superman",
     "address": "️Малая Бронная ул., 2, стр. 1",
-    "lat": 55.759127,
+    "lat": 55.759127, 
     "lng": 37.598303,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/160",
@@ -615,13 +580,12 @@
       "images/photo_160_1_gADeQADPQQ.jpg",
       "images/photo_160_2_gADeQADPQQ.jpg",
       "images/photo_160_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_160.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Хищник Стейки & Бургеры",
     "address": "️ ул. Рождественка, 5/7с1 (этаж 2)",
-    "lat": 55.761593,
+    "lat": 55.761593, 
     "lng": 37.623232,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/164",
@@ -632,13 +596,12 @@
       "images/photo_164_1_gADeQADPQQ.jpg",
       "images/photo_164_2_gADeQADPQQ.jpg",
       "images/photo_164_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_164.jpg"
+    ]
   },
   {
-    "title": "Союз",
+    "title": "Земля, прощай!",
     "address": "️ ул. Маросейка, 15",
-    "lat": 55.757936,
+    "lat": 55.757936, 
     "lng": 37.636769,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/168",
@@ -649,13 +612,12 @@
       "images/photo_168_1_gADeQADPQQ.jpg",
       "images/photo_168_2_gADeQADPQQ.jpg",
       "images/photo_168_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_168.jpg"
+    ]
   },
   {
     "title": "Преснявары",
     "address": "️ Столярный пер., 7, стр. 1",
-    "lat": 55.763614,
+    "lat": 55.763614, 
     "lng": 37.565856,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/172",
@@ -666,13 +628,12 @@
       "images/photo_172_1_gADeQADPQQ.jpg",
       "images/photo_172_2_gADeQADPQQ.jpg",
       "images/photo_172_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_172.jpg"
+    ]
   },
   {
-    "title": "#Брассерия 🇧🇪",
+    "title": "Kwak (Квак)",
     "address": "️ ул. Покровка, 2/1с1 (этаж цокольный)",
-    "lat": 55.757946,
+    "lat": 55.757946, 
     "lng": 37.639114,
     "tag": "#Брассерия",
     "link": "https://t.me/resender_skklgh/176",
@@ -683,13 +644,12 @@
       "images/photo_176_1_gADeQADPQQ.jpg",
       "images/photo_176_2_gADeQADPQQ.jpg",
       "images/photo_176_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_176.jpg"
+    ]
   },
   {
-    "title": "#Паб",
+    "title": "Salden’S Taphouse",
     "address": "️ Пятницкая ул., 3/4с1",
-    "lat": 55.745498,
+    "lat": 55.745498, 
     "lng": 37.627032,
     "tag": "#Паб",
     "link": "https://t.me/resender_skklgh/180",
@@ -700,13 +660,12 @@
       "images/photo_180_1_gADeQADPQQ.jpg",
       "images/photo_180_2_gADeQADPQQ.jpg",
       "images/photo_180_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_180.jpg"
+    ]
   },
   {
-    "title": "Вокруг света",
+    "title": "Дедушка настаивает",
     "address": "️ Никольская ул., 10",
-    "lat": 55.757957,
+    "lat": 55.757957, 
     "lng": 37.624444,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/184",
@@ -717,13 +676,12 @@
       "images/photo_184_1_gADeQADPQQ.jpg",
       "images/photo_184_2_gADeQADPQQ.jpg",
       "images/photo_184_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_184.jpg"
+    ]
   },
   {
     "title": "4 Brewers Pub",
     "address": "️ул. Большая Полянка, 65/74с3",
-    "lat": 55.730568,
+    "lat": 55.730568, 
     "lng": 37.623223,
     "tag": "#Паб",
     "link": "https://t.me/resender_skklgh/188",
@@ -734,13 +692,12 @@
       "images/photo_188_1_gADeQADPQQ.jpg",
       "images/photo_188_2_gADeQADPQQ.jpg",
       "images/photo_188_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_188.jpg"
+    ]
   },
   {
-    "title": "для своих",
+    "title": "Lumberjack",
     "address": "️Большой Спасоглинищевский пер., 3, стр. 5",
-    "lat": 55.756437,
+    "lat": 55.756437, 
     "lng": 37.635197,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/192",
@@ -751,13 +708,12 @@
       "images/photo_192_1_AAN5AAM9BA.jpg",
       "images/photo_192_2_IAA3kAAz0E.jpg",
       "images/photo_192_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_192.jpg"
+    ]
   },
   {
-    "title": "уютными закоулками",
+    "title": "Tipsy Pub",
     "address": "️ Сущёвская ул., 9",
-    "lat": 55.780578,
+    "lat": 55.780578, 
     "lng": 37.601672,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/196",
@@ -768,13 +724,12 @@
       "images/photo_196_1_gADeQADPQQ.jpg",
       "images/photo_196_2_gADeQADPQQ.jpg",
       "images/photo_196_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_196.jpg"
+    ]
   },
   {
-    "title": "Пенные зелья Хогсмида",
+    "title": "У Поттера",
     "address": "️ Страстной бул., 4, стр. 3 (этаж -1)",
-    "lat": 55.764987,
+    "lat": 55.764987, 
     "lng": 37.608212,
     "tag": "#Бар_музей",
     "link": "https://t.me/resender_skklgh/204",
@@ -785,13 +740,12 @@
       "images/photo_204_1_gADeQADPQQ.jpg",
       "images/photo_204_2_gADeQADPQQ.jpg",
       "images/photo_204_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_204.jpg"
+    ]
   },
   {
-    "title": "английского дома",
+    "title": "John Bull на 1905 года",
     "address": "️ ул. Красная Пресня, 25, стр. 1",
-    "lat": 55.762287,
+    "lat": 55.762287, 
     "lng": 37.564859,
     "tag": "#Английский_паб",
     "link": "https://t.me/resender_skklgh/208",
@@ -802,13 +756,12 @@
       "images/photo_208_1_AAN5AAM9BA.jpg",
       "images/photo_208_2_IAA3kAAz0E.jpg",
       "images/photo_208_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_208.jpg"
+    ]
   },
   {
-    "title": "Парка",
+    "title": "PARKA (Парка)",
     "address": "️ ул. Маросейка, 6-8с1",
-    "lat": 55.757506,
+    "lat": 55.757506, 
     "lng": 37.635206,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/212",
@@ -819,13 +772,28 @@
       "images/photo_212_1_gADeQADPQQ.jpg",
       "images/photo_212_2_gADeQADPQQ.jpg",
       "images/photo_212_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_212.jpg"
+    ]
   },
   {
-    "title": "#Английский_паб 🇬🇧",
+    "title": "Гамбринус",
+    "address": "️ в зависимости от локации, смотреть на сайте",
+    "lat": null,
+    "lng": null,
+    "tag": "#Пивной_ресторан",
+    "link": "https://t.me/resender_skklgh/216",
+    "description": "#Пивной_ресторан\nГамбринус\n\nСеть пивных ресторанов \"Гамбринус\" это настоящая московская легенда, которая на протяжении многих лет остаётся точкой притяжения для ценителей хорошего пива и уютной атмосферы. История сети началась в 2007 году. Сегодня \"Гамбринус\" это объединение нескольких ресторанов по всей Москве, которые удачно сочетают в себе традиции пивной культуры и формат полноценного ресторана с качественной кухней и высоким уровнем сервиса.\n\n🤩Атмосфера\nКаждый ресторан сети уникален, но их объединяет атмосфера: на Киевской один из самых красивых ресторанов сети - высокие колонны, мебель из ценных пород дерева. На Профсоюзной — стиль лофт: кирпичные стены и деревянная мебель. На Сухаревской — двухэтажное здание с уютными кабинками и VIP-залом. А всего в Москве 11 локаций в разных частях города.\nВо многих заведениях есть караоке и большие экраны для просмотра спортивных трансляций.\n\n🍗Еда\nМеню — это авторская версия европейской кухни, где каждый найдёт блюдо по душе. В ассортименте более 6 видов колбасок, 8 видов стейков, супы, салаты, бургеры и горячие блюда.\nЧто попробовать: фирменное мясное ассорти, рибай на гриле, стейки на вулканических камнях, краба и шоколадный фондан.\n\n🍺Барная карта\nВ наличии более 25 сортов настоящего пива из Чехии, Германии, Бельгии и Англии. Также в баре большой выбор виски, текилы, рома, вина и авторские коктейли.\n\nРезюме\nЭтот ресторан подойдёт для деловых встреч, семейных ужинов, чтобы отметить какие-то события или посидеть с друзьями за кружечкой вкусного пива. Огромное количество акций, с которыми можно ознакомиться на сайте. Одна из любимых это внушительная порция разного мяса в комплекте с трехлитровым бочонком пива (как раз есть на фото). По воскресеньям и понедельникам все напитки на розлив удваиваются. Есть бесплатное детское меню по выходным с 12:00 до 16:00 для детей при заказе взрослого, а так же детские мероприятия и комнаты. Действует бонусная программа и скидки.\n🔠Чек: средний/выше среднего, ₽₽\n\n🔠 https://gambrinus.ru/\n😀 https://t.me/gambrinus2023\n☎️ в зависимости от локации, смотреть на сайте\n🕰️ пн-пт 11:00-00:00, сб-вс 12:00-00:00\n➡️ в зависимости от локации, смотреть на сайте\n🔠#Маяковская, #Филёвский_парк, #Парк_Культуры, #Киевская, #Марксистская, #Таганская, #Площадь_Ильича, #Римская, #Комсомольская, #Сухаревская, #Проспект_Мира, #Профсоюзная, #Академическая, #Перово, #Шоссе_Энтузиастов, #Коньково, #Теплый_стан, #Беляево, #Третьяковская, #Новокузнецкая\n\n#пабымосквы #обзор",
+    "phone": "️ в зависимости от локации, смотреть на сайте",
+    "images": [
+      "images/photo_216_0_gADeQADPQQ.jpg",
+      "images/photo_216_1_gADeQADPQQ.jpg",
+      "images/photo_216_2_gADeQADPQQ.jpg",
+      "images/photo_216_3_IAA3kAAz0E.jpg"
+    ]
+  },
+  {
+    "title": "Cross Case Pub",
     "address": "️ ул. Малая Дмитровка, 3",
-    "lat": 55.76723,
+    "lat": 55.767230, 
     "lng": 37.606038,
     "tag": "#Английский_паб",
     "link": "https://t.me/resender_skklgh/220",
@@ -836,11 +804,10 @@
       "images/photo_220_1_gADeQADPQQ.jpg",
       "images/photo_220_2_gADeQADPQQ.jpg",
       "images/photo_220_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_220.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Настоишная",
     "address": "️ 2-я Тверская-Ямская ул., 2",
     "lat": 55.770684,
     "lng": 37.596587,
@@ -853,14 +820,13 @@
       "images/photo_224_1_gADeQADPQQ.jpg",
       "images/photo_224_2_gADeQADPQQ.jpg",
       "images/photo_224_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_224.jpg"
+    ]
   },
   {
-    "title": "Козловну",
+    "title": "Козловна",
     "address": "️ Мясницкая ул., 22, стр. 1",
-    "lat": 55.762145,
-    "lng": 37.63447,
+    "lat": 55.762145, 
+    "lng": 37.634470,
     "tag": "#Чешский_паб",
     "link": "https://t.me/resender_skklgh/228",
     "description": "#Чешский_паб 🇨🇿\nКозловна\n\nЕсли хочется настоящего чешского пива и уюта, добро пожаловать в \"Козловну\" на Мясницкой, 22. Это не просто паб, а настоящая чешская пивница.\n\n🤩Атмосфера\nЗаведение располагается в старинном здании, где когда-то были владения князя Юсупова и графа Мусина-Пушкина. Открытая кирпичная кладка на стенах и деревянные панели создают неповторимый колорит старой пивной, а в центре зала, словно драгоценности, красуются металлические танки-форфасы с фирменным пивом.\n\n🥩Еда\nБольшой выбор самых разных колбасок и гарниров к ним, салатов, горячих и холодных закусок, а так же блюда на компанию, среди которых знаменитое вепрове колено. Личная рекомендация форшмак из сельди и хрустящие чипсы из сырной лепешки, которые подают с намазкой из плотных сливок и копчёного сыра.\n\n🍺 Барная карта\nГлавная звезда здесь, без сомнения, танковое пиво Velkopopovický Kozel - это живой продукт, который доставляют прямо с пивоварни. Его срок жизни всего 7 дней после открытия танка, дату открытия можно увидеть на стекле рядом с танком. Кроме него есть ещё другие сорта пива в бутылках, большой выбор вин и коктейлей, а так же широкий ассортимент фирменных настоек, чешского ликёра и крепкого алкоголя.\n\nРезюме\nМесто идеально подходит и для посиделок с друзьями у экрана с футболом, и для более торжественных мероприятий, а так же всем любителям свежего пива и отличной кухни.\n🔠Чек: средний/выше среднего, ₽₽\n\n🔠 http://kozlovna.ru\n☎️ +74951527468\n🕰️  сб-чт 12:00-00:00, пт 12:00-01:00\n➡️ Мясницкая ул., 22, стр. 1\n🔠#Тургеневская, #Чистые_пруды, #Сретенский_бульвар, #Лубянка\n\n#пабымосквы #обзор",
@@ -870,14 +836,13 @@
       "images/photo_228_1_gADeQADPQQ.jpg",
       "images/photo_228_2_gADeQADPQQ.jpg",
       "images/photo_228_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_228.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Arrurru",
     "address": "️ ул. Остоженка, 3/14, Москва",
-    "lat": 55.743857,
-    "lng": 37.60196,
+    "lat": 55.743857, 
+    "lng": 37.601960,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/232",
     "description": "#Бар\nArrurru\n\nМексиканский андеграунд ресторан-бар, спрятанный в самом сердце Москвы.\n\n🤩Атмосфера\nArrurru - старинная латиноамериканская колыбельная, которую живые поют душам умерших. Пространство выглядит как таинственная пещера древнего шамана: здесь царит сумрак, рассеиваемый лишь алтарными свечами и замысловатыми светильниками. На потолке круглое окно в форме колодца, яркая мозаика, красочные настенные орнаменты, керамика.\n\n🌯Еда\nМексиканская с авторским акцентом: тако, супы, raw, салаты, кесадилья / роти / чимичанга, горячие блюда, десерты.\n\n🍹Барная карта\nГлавная страсть этого бара - напитки из агавы. Арсенал впечатляет: свыше 30 текил, два десятка мескалей, а также редкие сотол и райсилья. Пробовать их можно в чистом виде или в коктейлях - от традиционных мексиканских до фирменных. Тем, кто ищет альтернативу, нальют кальвадос, писко, херес, джин и ром, а также есть небольшой выбор пива.\n\nРезюме\nЛучшее место для знакомства с Мексикой через вкус. Если ваша цель не просто пропустить рюмку-другую, а по-настоящему погрузиться в историю текилы и мескаля, вы по адресу. Бармен и мескальеро Арти, прекрасно знающий страну, с картой в руках расскажет, что пьют в разных штатах и почему текилу принято запивать сангритой, а не закусывать лаймом и солью.\n🔠Чек: средний/выше среднего, ₽₽\n\n🔠https://arrurru.ru\n😀 https://t.me/arrurru_ru\n☎️ +74994745320\n🕰️ пн-вс 12:00-00:00, пт-сб 12:00-01:00\n➡️ ул. Остоженка, 3/14, Москва\n🔠 #Кропоткинская\n\n#пабымосквы #обзор\n\n*Дополнительные фото в комментариях\n⬇️⬇️⬇️",
@@ -887,13 +852,12 @@
       "images/photo_232_1_gADeQADPQQ.jpg",
       "images/photo_232_2_IAA3kAAz0E.jpg",
       "images/photo_232_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_232.jpg"
+    ]
   },
   {
-    "title": "#Английский_паб 🇬🇧",
+    "title": "William Bass",
     "address": "️ ул. Малая Якиманка, 9",
-    "lat": 55.74002,
+    "lat": 55.740020, 
     "lng": 37.615928,
     "tag": "#Английский_паб",
     "link": "https://t.me/resender_skklgh/236",
@@ -904,13 +868,12 @@
       "images/photo_236_1_gADeQADPQQ.jpg",
       "images/photo_236_2_gADeQADPQQ.jpg",
       "images/photo_236_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_236.jpg"
+    ]
   },
   {
-    "title": "Красный Октябрь",
+    "title": "Howard Loves Craft (Говард)",
     "address": "️ Болотная наб., 7, стр. 3",
-    "lat": 55.74036,
+    "lat": 55.740360, 
     "lng": 37.610413,
     "tag": "#Паб",
     "link": "https://t.me/resender_skklgh/240",
@@ -921,13 +884,12 @@
       "images/photo_240_1_gADeQADPQQ.jpg",
       "images/photo_240_2_gADeQADPQQ.jpg",
       "images/photo_240_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_240.jpg"
+    ]
   },
   {
-    "title": "#Английский_паб🇬🇧",
+    "title": "Черчилль",
     "address": "️Ленинградский просп., 66",
-    "lat": 55.802761,
+    "lat": 55.802761, 
     "lng": 37.526007,
     "tag": "#Английский_паб",
     "link": "https://t.me/resender_skklgh/244",
@@ -938,13 +900,12 @@
       "images/photo_244_1_IAA3kAAz0E.jpg",
       "images/photo_244_2_gADeQADPQQ.jpg",
       "images/photo_244_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_244.jpg"
+    ]
   },
   {
-    "title": "#Паб",
+    "title": "Лига Пап",
     "address": "️ ул. Большая Лубянка, 24/15с1",
-    "lat": 55.765357,
+    "lat": 55.765357, 
     "lng": 37.631092,
     "tag": "#Паб",
     "link": "https://t.me/resender_skklgh/248",
@@ -955,13 +916,12 @@
       "images/photo_248_1_gADeQADPQQ.jpg",
       "images/photo_248_2_gADeQADPQQ.jpg",
       "images/photo_248_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_248.jpg"
+    ]
   },
   {
-    "title": "#Бар",
+    "title": "Буховски'с",
     "address": "️ Славянская площадь, 2/5/4с2",
-    "lat": 55.75284,
+    "lat": 55.752840, 
     "lng": 37.635404,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/252",
@@ -972,13 +932,12 @@
       "images/photo_252_1_IAA3kAAz0E.jpg",
       "images/photo_252_2_gADeQADPQQ.jpg",
       "images/photo_252_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_252.jpg"
+    ]
   },
   {
-    "title": "Ливерпуля",
+    "title": "Suckin’ Diesel",
     "address": "️ Лесная ул., 20, стр. 1",
-    "lat": 55.780522,
+    "lat": 55.780522, 
     "lng": 37.592132,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/256",
@@ -989,13 +948,12 @@
       "images/photo_256_1_IAA3kAAz0E.jpg",
       "images/photo_256_2_IAA3kAAz0E.jpg",
       "images/photo_256_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_256.jpg"
+    ]
   },
   {
-    "title": "#Ирландский_паб🇮🇪",
+    "title": "Mollie’s",
     "address": "️ Мясницкая ул., 13, стр. 3",
-    "lat": 55.762617,
+    "lat": 55.762617, 
     "lng": 37.634398,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/260",
@@ -1006,13 +964,12 @@
       "images/photo_260_1_IAA3kAAz0E.jpg",
       "images/photo_260_2_IAA3kAAz0E.jpg",
       "images/photo_260_3_AAN5AAM9BA.jpg"
-    ],
-    "icon": "images/icon_260.jpg"
+    ]
   },
   {
-    "title": "Казбек",
+    "title": "16 Тонн на Пресне",
     "address": "️ ул. Пресненский Вал, 6, стр. 1",
-    "lat": 55.764313,
+    "lat": 55.764313, 
     "lng": 37.564383,
     "tag": "#Клуб",
     "link": "https://t.me/resender_skklgh/264",
@@ -1023,13 +980,12 @@
       "images/photo_264_1_AAN5AAM9BA.jpg",
       "images/photo_264_2_IAA3kAAz0E.jpg",
       "images/photo_264_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_264.jpg"
+    ]
   },
   {
-    "title": "ГОООЛ!",
+    "title": "Irishman Pub",
     "address": "️Звенигородское ш., 18/20к1",
-    "lat": 55.764323,
+    "lat": 55.764323, 
     "lng": 37.556119,
     "tag": "#Ирландский_паб",
     "link": "https://t.me/resender_skklgh/268",
@@ -1040,13 +996,12 @@
       "images/photo_268_1_IAA3kAAz0E.jpg",
       "images/photo_268_2_IAA3kAAz0E.jpg",
       "images/photo_268_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_268.jpg"
+    ]
   },
   {
-    "title": "Винфак",
+    "title": "Винный факультет (Винфак)",
     "address": "️ Большой Трёхсвятительский пер., 2/1с1 (Красная дверь Гиперион, этаж 2)",
-    "lat": 55.754674,
+    "lat": 55.754674, 
     "lng": 37.644809,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/272",
@@ -1057,14 +1012,13 @@
       "images/photo_272_1_IAA3kAAz0E.jpg",
       "images/photo_272_2_IAA3kAAz0E.jpg",
       "images/photo_272_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_272.jpg"
+    ]
   },
   {
-    "title": "Хреновухи",
+    "title": "Русский паб",
     "address": "️ Тверской бул., 10, стр. 1",
-    "lat": 55.759076,
-    "lng": 37.60054,
+    "lat": 55.759076, 
+    "lng": 37.600540,
     "tag": "#Паб",
     "link": "https://t.me/resender_skklgh/276",
     "description": "#Паб\nРусский паб это не просто бар, а гастропроект, который переосмысляет традиции русского застолья в современном формате. Вдохновением для создателей (ресторатора Игоря Лазарева и бренд-шефа Алексея Семёнова) послужил образ шумного и хлебосольного русского пира с настойками и душевными разговорами.\n\n🤩Атмосфера\nВ оформлении сочетаются брутальность и уют: дерево, балки, приглушённые тона, светильники из банок и барная стойка из коры. Стены украшают работы Васи Ложкина, подоконники - винтажные мелочи, самовары и матрёшки. Звуковое сопровождение - русский рок и узнаваемые хиты. Музыка играет негромко, чтобы не мешать разговору.\n\n🥘Кухня\nМеню это современный взгляд на русские традиции. Можно найти и классические блюда (борщ, солянка, уха из нескольких видов рыб, пельмени), и более авторские сочетания: бургеры со щукой, бутерброды, домашние колбаски, мясо, закуски по-русски, окрошка с тамбовским окороком и огуречным льдом.\n\n🤩Барная карта\nОсновной акцент - на крафтовое пиво (бутылочное и разливное), домашние настойки и авторские коктейли с национальным колоритом. Для ценителей - хороший выбор вина.\nНастойки: от классических \"Хреновухи\", \"Клюковки\" и \"Спотыкача\" до необычных авторских миксов: \"Борщ\", \"Гречка из печки, \"Пихта и черника\", \"Яблочный штрудель\", \"Баба-яга\" и других.\n\nРезюме\nЗаведение идеально подходит для посиделок с друзьями. Часто проходят живые выступления (музыканты играют на гитаре или скрипке) и спортивные трансляции. Здесь можно забронировать стол как для небольшой компании, так и для масштабного торжества.\n🔠Чек: средний/выше среднего, ₽₽\n\n🔠 http://ruspub.ru\n☎️ +74957446361, +74957443436\n🕰️ Ежедневно с 12:00 до 00:00\n➡️ Тверской бул., 10, стр. 1\n🔠 #Пушкинская, #Тверская, #Арбатская\n\n#пабымосквы #обзор",
@@ -1074,14 +1028,13 @@
       "images/photo_276_1_IAA3kAAz0E.jpg",
       "images/photo_276_2_IAA3kAAz0E.jpg",
       "images/photo_276_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_276.jpg"
+    ]
   },
   {
-    "title": "дух братства",
+    "title": "Раскол",
     "address": "️ Новослободская ул., 18 (этаж цокольный)",
-    "lat": 55.782329,
-    "lng": 37.59939,
+    "lat": 55.782329, 
+    "lng": 37.599390,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/280",
     "description": "#Бар\nРаскол это действительно необычное место: здесь сделали ставку на атмосферу эпохи викингов, и гостям предлагают не просто посидеть попить пиво, а стать частью интерактивного приключения.\n\n🤩Атмосфера\nИнтерьер выдержан в суровом скандинавском стиле: стены украшают топоры и стилизованные карты, потолок декорирован рыболовецкими сетями, а массивные деревянные столы создают полное погружение в эпоху викингов. Здесь даже есть настоящий трон для эпичных фотосессий.\n\n🤩Барная карта\nВ наличии небольшой ассортимент крафтового пива, эль и медовуха. Так же имеются настойки и авторские коктейли. Для больших компаний предлагают \"дух братства\" - братину пива, которую распивают по очереди.\n\n🥩Кухня\nСмешанная, с акцентом на скандинавские мотивы. Многие блюда готовятся с использованием дичи (лось, северный олень, кабан, бобр). Порции обычно сытные - в духе традиций, когда нужно накормить целую дружину.\n\nРезюме\nОтличное место для отдыха с друзьями и коллегами. Главная фишка - интерактив. Можно пометать топоры в мишень, поднять тяжёлый кубок Тюра, отчеканить монету (это даёт скидку), поучаствовать в мастер-классах по играм викингов или в ритуале посвящения в берсерка. Часто проходят выступления фолк-музыкантов. Персонал тоже участвует в игре: рассказывает легенды, помогает погрузиться в атмосферу.\n\n🔠 https://raskol-bar.ru\n☎️  +74994033545\n🕰️ пн-чт 16:00-00:00, пт 16:00-05:00, сб 14:00-05:00, вс 14:00-00:00\n➡️ Новослободская ул., 18 (этаж цокольный)\n🔠 #Менделеевская, #Новослободская\n\n#пабымосквы #обзор\n\n*Дополнительные фото в комментариях\n⬇️⬇️⬇️",
@@ -1091,13 +1044,12 @@
       "images/photo_280_1_gADeQADPQQ.jpg",
       "images/photo_280_2_IAA3kAAz0E.jpg",
       "images/photo_280_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_280.jpg"
+    ]
   },
   {
-    "title": "Синеглазка",
+    "title": "Пигги",
     "address": "️ ул. Солянка, д. 4, стр. 4",
-    "lat": 55.753706,
+    "lat": 55.753706, 
     "lng": 37.637219,
     "tag": "#Английский_паб",
     "link": "https://t.me/resender_skklgh/284",
@@ -1108,13 +1060,12 @@
       "images/photo_284_1_IAA3kAAz0E.jpg",
       "images/photo_284_2_IAA3kAAz0E.jpg",
       "images/photo_284_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_284.jpg"
+    ]
   },
   {
-    "title": "Депо. Лесная",
+    "title": "Mbar",
     "address": "️Лесная ул., 20, стр. 1",
-    "lat": 55.780522,
+    "lat": 55.780522, 
     "lng": 37.592132,
     "tag": "#Бар",
     "link": "https://t.me/resender_skklgh/288",
@@ -1125,13 +1076,12 @@
       "images/photo_288_1_IAA3kAAz0E.jpg",
       "images/photo_288_2_IAA3kAAz0E.jpg",
       "images/photo_288_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_288.jpg"
+    ]
   },
   {
     "title": "Мясницкий",
     "address": "️ Мясницкий пр., 2/1",
-    "lat": 55.76839,
+    "lat": 55.768390, 
     "lng": 37.646372,
     "tag": "#Спортбар",
     "link": "https://t.me/resender_skklgh/292",
@@ -1142,14 +1092,13 @@
       "images/photo_292_1_gADeQADPQQ.jpg",
       "images/photo_292_2_gADeQADPQQ.jpg",
       "images/photo_292_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_292.jpg"
+    ]
   },
   {
-    "title": "#Пивной_бар",
+    "title": "Шер Хауз (Share House)",
     "address": "️Оружейный пер., 3, стр. 2 (вход через арку с Оружейного Переулка)",
-    "lat": 55.770851,
-    "lng": 37.59674,
+    "lat": 55.770851, 
+    "lng": 37.596740,
     "tag": "#Пивной_бар",
     "link": "https://t.me/resender_skklgh/296",
     "description": "#Пивной_бар\nШер Хауз (Share House) это настоящая находка для ценителей крафтового пива и уютных атмосферных мест.\n\n🤩Атмосфера\nЭто двухэтажный пивной бар в отдельно стоящем здании. Интерьер выполнен в уютном стиле: здесь есть книжные полки и электрический камин, которые создают по-настоящему домашнюю атмосферу. Летом для гостей работает веранда.\nВ бар можно приходить с собаками - ещё один плюс для многих посетителей. Есть настольные игры, спортивные трансляции и бесплатный Wi-Fi. Вместимость - до 50 человек.\n\n🌯Кухня\nВ меню большой выбор горячих закусок: шаверма с разнообразными начинками, хотдоги, салаты с сезонными овощами, сэндвичи, колбаски, наггетсы. Есть вегетарианские и веганские опции.\n\n🤩Барная карта\nГлавная фишка заведения - огромный выбор крафтового пива со всего мира. В ассортименте представлены сорта от российских и зарубежных пивоварен, их перечень постоянно обновляется, как на кране, так и в бутылках-банках.\n\nРезюме\nСкрытый бар в центре Москвы (вход через арку и его нужно немного поискать - за что его и любят постоянные гости), он предлагает гостям уникальную атмосферу и один из лучших выборов крафтового пива в городе. Идеальное место для тех, кто хочет попробовать что-то новое и провести время в уютной компании.\n🔠Чек: средний, ₽₽\n\n🔠нет\n😀 https://t.me/sharehousebar\n☎️ +79162974252\n🕰️ вск-чт 15:00-00:00, пт-сб 15:00-00:00\n➡️Оружейный пер., 3, стр. 2 (вход через арку с Оружейного Переулка)\n🔠#Маяковская\n\n#пабымосквы #обзор",
@@ -1159,24 +1108,6 @@
       "images/photo_296_1_gADeQADPQQ.jpg",
       "images/photo_296_2_IAA3kAAz0E.jpg",
       "images/photo_296_3_gADeQADPQQ.jpg"
-    ],
-    "icon": "images/icon_296.jpg"
-  },
-  {
-    "title": "ТЕСТЕО",
-    "address": "️Оружейный пер., 3, стр. 2 (вход через арку с Оружейного Переулка)",
-    "lat": 55.704098,
-    "lng": 37.615884,
-    "tag": "#Пивной_бар",
-    "link": "https://t.me/resender_skklgh/303",
-    "description": "#Пивной_бар\n\nРезюме\nСкрытый бар в центре Москвы (вход через арку и его нужно немного поискать - за что его и любят постоянные гости), он предлагает гостям уникальную атмосферу и один из лучших выборов крафтового пива в городе. Идеальное место для тех, кто хочет попробовать что-то новое и провести время в уютной компании.\n🔠Чек: средний, ₽₽\n\n🏠 ТЕСТЕО\n😀 https://t.me/sharehousebar\n☎️ +79162974252\n🗺 55.704098, 37.615884\n🕰️ вск-чт 15:00-00:00, пт-сб 15:00-00:00\n➡️Оружейный пер., 3, стр. 2 (вход через арку с Оружейного Переулка)\n🔠#Маяковская",
-    "phone": "️ +79162974252",
-    "images": [
-      "images/photo_303_0_AAN5AAM9BA.jpg",
-      "images/photo_303_1_IAA3kAAz0E.jpg",
-      "images/photo_303_2_IAA3kAAz0E.jpg",
-      "images/photo_303_3_IAA3kAAz0E.jpg"
-    ],
-    "icon": "images/icon_303.jpg"
+    ]
   }
 ]
