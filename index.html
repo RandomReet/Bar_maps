@@ -698,38 +698,6 @@
     }
   });
 
-
-
-
-  const tg = window.Telegram?.WebApp;
-
-  function getCoordsFromStartParam() {
-    const startParam = tg?.initDataUnsafe?.start_param;
-    if (!startParam) return null;
-
-    const [latStr, lngStr] = startParam.split(',');
-    const lat = parseFloat(latStr);
-    const lng = parseFloat(lngStr);
-
-    if (Number.isFinite(lat) && Number.isFinite(lng)) {
-      return { lat, lng };
-    }
-
-    return null;
-  }
-
-  const coords = getCoordsFromStartParam();
-
-  if (coords) {
-    console.log('Получены координаты:', coords.lat, coords.lng);
-
-    // пример: центрируем карту
-    map.setCenter([coords.lng, coords.lat]);
-    map.setZoom(16);
-  }
-
-
-
 </script>
 
 </body>
