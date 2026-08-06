@@ -567,7 +567,7 @@
   // Функция для создания маркеров из массива данных
   function loadPlaces(places) {
     places.forEach(p => {
-      const markerImg = (p.images && p.images.length) ? p.images[0] : '';
+      const markerImg = p.icon || (p.images && p.images.length) ? p.images[0] : '';
       const el = createMarkerElement(markerImg);
       markerEls.push(el);
       el.style.cursor = 'pointer';
