@@ -343,8 +343,8 @@
 <script src="https://unpkg.com/maplibre-gl@5.2.0/dist/maplibre-gl.js"></script>
 
 <script>
-  const MAP_CENTER = [55.768390, 37.646372]; // [lat, lng]
-  const MAP_ZOOM = 15;
+  const MAP_CENTER = [55.751481, 37.624308]; // [lat, lng]
+  const MAP_ZOOM = 13.7;
 
   function escapeHtml(str) {
     return String(str).replace(/[&<>"']/g, s => ({
@@ -358,6 +358,7 @@
 
     const img = document.createElement('img');
     img.alt = '';
+
     img.onerror = () => { img.style.display = 'none'; };
     if (imageUrl) img.src = imageUrl;
 
@@ -527,107 +528,125 @@
     if (e.key === 'ArrowLeft') setGalleryIndex(galleryIndex - 1);
     if (e.key === 'ArrowRight') setGalleryIndex(galleryIndex + 1);
   });
+// ========= Map =========
+if (typeof maplibregl === 'undefined') {
+  throw new Error('maplibregl missing');
+}
 
-  // ========= Map =========
-  if (typeof maplibregl === 'undefined') {
-    throw new Error('maplibregl missing');
-  }
-
-  const map = new maplibregl.Map({
-    container: 'map',
-    style: {
-      version: 8,
-      sources: {
-        osm: {
-          type: 'raster',
-          tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
-          tileSize: 256,
-          attribution: '&copy; OpenStreetMap contributors'
-        }
-      },
-      layers: [{
-        id: 'osm-tiles',
+const map = new maplibregl.Map({
+  container: 'map',
+  style: {
+    version: 8,
+    sources: {
+      osm: {
         type: 'raster',
-        source: 'osm',
-        minzoom: 0,
-        maxzoom: 19
-      }]
+        tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+        tileSize: 256,
+        attribution: '&copy; OpenStreetMap contributors'
+      }
     },
-    center: [MAP_CENTER[1], MAP_CENTER[0]],
-    zoom: MAP_ZOOM,
+    layers: [{
+      id: 'osm-tiles',
+      type: 'raster',
+      source: 'osm',
+      minzoom: 0,
+      maxzoom: 19
+    }]
+  },
+  center: [MAP_CENTER[1], MAP_CENTER[0]],
+  zoom: MAP_ZOOM,
+  minZoom: 0,
+  maxZoom: 18
+});
 
-    minZoom: 0,
-    maxZoom: 18   // <-- поставь нужное значение
+const markerEls = [];
+const BASE_SIZE = 44; // текущее из CSS: 44x44
+
+function preloadImage(url) {
+  if (!url) return Promise.resolve();
+  return new Promise((resolve) => {
+    const img = new Image();
+    img.onload = () => resolve();
+    img.onerror = () => resolve(); // чтобы падение одной картинки не стопорило всё
+    img.src = url;
   });
+}
 
+// Функция для создания маркеров из массива данных
+function loadPlaces(places) {
+  places.forEach(p => {
+    const markerImg = p.icon;
+    const el = createMarkerElement(markerImg);
 
-  const markerEls = [];
-  const BASE_SIZE = 44; // текущее из CSS: 44x44
+    markerEls.push(el);
+    el.style.cursor = 'pointer';
 
-  // Функция для создания маркеров из массива данных
-  function loadPlaces(places) {
-    places.forEach(p => {
-      const markerImg = p.icon || (p.images && p.images.length) ? p.images[0] : '';
-      const el = createMarkerElement(markerImg);
-      markerEls.push(el);
-      el.style.cursor = 'pointer';
+    const popupHtml = `
+      <div class="popup-title">${escapeHtml(p.title || '')}</div>
+      <div>${escapeHtml(p.address || '')}</div>
+      ${p.tag ? `<div>${escapeHtml(p.tag)}</div>` : ''}
+    `;
 
-      const popupHtml = `
-        <div class="popup-title">${escapeHtml(p.title || '')}</div>
-        <div>${escapeHtml(p.address || '')}</div>
-        ${p.tag ? `<div>${escapeHtml(p.tag)}</div>` : ''}
-      `;
+    const popup = new maplibregl.Popup({ offset: [0, -40], closeButton: false })
+      .setHTML(popupHtml);
 
-      const popup = new maplibregl.Popup({ offset: [0, -40], closeButton: false }).setHTML(popupHtml);
+    new maplibregl.Marker({ element: el, anchor: 'bottom' })
+      .setLngLat([p.lng, p.lat])
+      .setPopup(popup)
+      .addTo(map);
 
-      new maplibregl.Marker({ element: el, anchor: 'bottom' })
-        .setLngLat([p.lng, p.lat])
-        .setPopup(popup)
-        .addTo(map);
-
-      el.addEventListener('click', (ev) => {
-        ev.preventDefault();
-        ev.stopPropagation();
-        openPlaceModal(p, el);
-      });
+    el.addEventListener('click', (ev) => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      openPlaceModal(p, el);
     });
-  }
+  });
+}
 
-  function updateMarkerSizes() {
-    if (!markerEls.length) return;
-    const z = map.getZoom();
+function updateMarkerSizes() {
+  if (!markerEls.length) return;
+  const z = map.getZoom();
 
+  const minZ = 10;
+  const maxZ = 20;
 
-    const minZ = 10;
-    const maxZ = 20;
+  const t = Math.max(0, Math.min(1, (z - minZ) / (maxZ - minZ))); // 0..1
+  const size = (BASE_SIZE / 1.5) + (BASE_SIZE / 1.5) * t; // от 22 до 44
 
-    const t = Math.max(0, Math.min(1, (z - minZ) / (maxZ - minZ))); // 0..1
-    const size = (BASE_SIZE / 1.5) + (BASE_SIZE / 1.5) * t; // от 22 до 44
-
-    markerEls.forEach(el => {
-      el.style.width = `${size}px`;
-      el.style.height = `${size}px`;
-    });
-  }
+  markerEls.forEach(el => {
+    el.style.width = `${size}px`;
+    el.style.height = `${size}px`;
+  });
+}
 
 map.on('zoom', updateMarkerSizes);
 
-
-  // Загружаем JSON данные после инициализации карты
-  map.on('load', async () => {
+// Загружаем JSON данные после инициализации карты
+map.on('load', async () => {
   try {
-    const response = await fetch(`places.json?v=${Date.now()}`);
+    const response = await fetch('places.json'); // убрал v=Date.now() (кеш не ломаем)
     if (!response.ok) throw new Error('Failed to load places.json');
     const placesData = await response.json();
 
+    // Предзагрузка иконок пачками
+    const iconUrls = placesData
+      .map(p => p.icon)
+      .filter(Boolean);
+
+    const BATCH_SIZE = 20;
+    for (let i = 0; i < iconUrls.length; i += BATCH_SIZE) {
+      const batch = iconUrls.slice(i, i + BATCH_SIZE);
+      await Promise.all(batch.map(preloadImage));
+    }
+
+    // После прогрева иконок создаём маркеры
     loadPlaces(placesData);
-    updateMarkerSizes(); // <-- ВАЖНО: после loadPlaces
+    updateMarkerSizes();
     console.log('Places loaded successfully');
   } catch (err) {
     console.error('Error loading places:', err);
   }
 });
-
 
 
 
