@@ -234,7 +234,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      top: 0; 
+      top: 0;
 
       /* прячем снизу */
       transform: translateY(90%);
@@ -247,7 +247,7 @@
       border-top-right-radius: 18px;
 
       max-height: 100%;
-      overflow: auto;
+      overflow: hidden;
 
       /* поверх картинки */
       z-index: 5;
@@ -255,6 +255,7 @@
 
     .place-sheet.is-opened{
       transform: translateY(0%);
+      overflow: auto;
     }
 
     .place-sheet__handle{
@@ -280,6 +281,11 @@
       line-height: 1.45;
       opacity: 0.95;
       white-space: pre-wrap; /* чтобы переносы сохранились */
+      display: none; /* Hide description text when closed */
+    }
+
+    .place-sheet.is-opened .place-sheet__text {
+      display: block; /* Show description text only when opened */
     }
 
     .marker {
