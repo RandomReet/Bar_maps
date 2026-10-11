@@ -716,6 +716,23 @@
       
       console.log({ startParam, tgStartParam, queryPost, hashPost, wanted });
 
+      const debug = document.createElement('pre');
+      debug.style.cssText =
+        'position:fixed;z-index:99999;left:8px;bottom:8px;' +
+        'background:white;color:black;padding:10px;font:12px monospace';
+      
+      debug.textContent = JSON.stringify({
+        startParam,
+        tgStartParam,
+        queryPost,
+        hashPost,
+        wanted,
+        found: placesData.some(p => String(p.post_id) === String(wanted))
+      }, null, 2);
+      
+      document.body.appendChild(debug);
+
+
 
       if (wanted !== null && wanted !== undefined && wanted !== '') {
         const place = placesData.find(p => String(p.post_id) === String(wanted));
