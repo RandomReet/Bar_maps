@@ -705,9 +705,17 @@
       // Глубокая ссылка: index.html открыт как index.html#post=N
       // (из поста — через кнопку мини-аппа с ?startapp=N).
       // Перелетаем к месту и открываем его карточку.
+      const query = new URLSearchParams(location.search);
+
       const startParam = window.Telegram?.WebApp?.initDataUnsafe?.start_param;
-      const hashParam = new URLSearchParams(location.hash.slice(1)).get('post');
-      const wanted = startParam || hashParam;
+      const tgStartParam = query.get('tgWebAppStartParam');
+      const queryPost = query.get('post');
+      const hashPost = new URLSearchParams(location.hash.slice(1)).get('post');
+      
+      const wanted = startParam || tgStartParam || queryPost || hashPost;
+      
+      console.log({ startParam, tgStartParam, queryPost, hashPost, wanted });
+
 
       if (wanted !== null && wanted !== undefined && wanted !== '') {
         const place = placesData.find(p => String(p.post_id) === String(wanted));
