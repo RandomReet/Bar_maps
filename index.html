@@ -355,6 +355,7 @@
     </div>
   </div>
 <!-- Удален <script src="places.js"></script> -->
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
 <script src="https://unpkg.com/maplibre-gl@5.2.0/dist/maplibre-gl.js"></script>
 
 <script>
@@ -700,6 +701,22 @@
       }) || setTimeout(() => {
         iconUrls.forEach(url => preloadImage(url));
       }, 0);
+
+      // Глубокая ссылка: index.html открыт как index.html#post=N
+      // (из поста — через кнопку мини-аппа с ?startapp=N).
+      // Перелетаем к месту и открываем его карточку.
+      const startParam = window.Telegram?.WebApp?.initDataUnsafe?.start_param;
+      const hashParam = new URLSearchParams(location.hash.slice(1)).get('post');
+      const wanted = startParam || hashParam;
+
+      if (wanted !== null && wanted !== undefined && wanted !== '') {
+        const place = placesData.find(p => String(p.post_id) === String(wanted));
+        if (place) {
+          map.flyTo({ center: [place.lng, place.lat], zoom: 16 });
+        } else {
+          console.warn('Place not found for deep link:', wanted);
+        }
+      }
 
       console.log('Places loaded successfully');
     } catch (err) {
