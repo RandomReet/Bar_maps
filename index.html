@@ -707,27 +707,53 @@
       }
 
 
-      // Глубокая ссылка: index.html открыт как index.html#post=N
-      // (из поста — через кнопку мини-аппа с ?startapp=N).
-      // Перелетаем к месту и открываем его карточку.
+      // Глубокая ссылка на точку карты. Поддерживаемые форматы:
+      //  1) из Telegram (кнопка мини-аппа): ?startapp=55762145_37620411
+      //     координаты ×10^6 как целые: lat_lng (точки в startapp ставить нельзя)
+      //  2) прямая ссылка: index.html#lat=55.762145&lng=37.620411
+      //  3) старый формат по номеру поста: index.html#post=N / ?post=N
       const query = new URLSearchParams(location.search);
+      const hashQuery = new URLSearchParams(location.hash.slice(1));
 
       const startParam = window.Telegram?.WebApp?.initDataUnsafe?.start_param;
       const tgStartParam = query.get('tgWebAppStartParam');
-      const queryPost = query.get('post');
-      const hashPost = new URLSearchParams(location.hash.slice(1)).get('post');
-      
-      const wanted = startParam || tgStartParam || queryPost || hashPost;
-      
-      console.log({ startParam, tgStartParam, queryPost, hashPost, wanted });
 
-      if (wanted !== null && wanted !== undefined && wanted !== '') {
-        const place = placesData.find(p => String(p.post_id) === String(wanted));
-        if (place) {
-          map.flyTo({ center: [place.lng, place.lat], zoom: 16 });
-        } else {
-          console.warn('Place not found for deep link:', wanted);
-        }
+      // "55762145_37620411" -> [lng, lat] для maplibre, или null
+      const parseStartCoords = (value) => {
+        if (!value) return null;
+        const m = String(value).match(/^(-?\d{1,9})_(-?\d{1,9})$/);
+        if (!m) return null;
+        const lat = Number(m[1]) / 1e6;
+        const lng = Number(m[2]) / 1e6;
+        if (!isFinite(lat) || !isFinite(lng)) return null;
+        if (Math.abs(lat) > 90 || Math.abs(lng) > 180) return null;
+        return [lng, lat];
+      };
+
+      const fromStart = parseStartCoords(startParam) || parseStartCoords(tgStartParam);
+
+      const latParam = Number(query.get('lat') ?? hashQuery.get('lat'));
+      const lngParam = Number(query.get('lng') ?? hashQuery.get('lng'));
+      const hasLatLng = isFinite(latParam) && isFinite(lngParam);
+
+      const postParam = query.get('post') ?? hashQuery.get('post');
+      const place = (postParam !== null && postParam !== '')
+        ? placesData.find(p => String(p.post_id) === String(postParam))
+        : undefined;
+
+      let target = null;
+      if (fromStart) {
+        target = fromStart;
+      } else if (hasLatLng) {
+        target = [lngParam, latParam];
+      } else if (place) {
+        target = [place.lng, place.lat];
+      }
+
+      console.log({ startParam, tgStartParam, latParam, lngParam, postParam, target });
+
+      if (target) {
+        map.flyTo({ center: target, zoom: 16 });
       }
 
       console.log('Places loaded successfully');
