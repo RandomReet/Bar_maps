@@ -696,11 +696,16 @@
         placesData.map(p => p.icon).filter(Boolean)
       )];
 
-      requestIdleCallback?.(() => {
+      const warmImages = () => {
         iconUrls.forEach(url => preloadImage(url));
-      }) || setTimeout(() => {
-        iconUrls.forEach(url => preloadImage(url));
-      }, 0);
+      };
+      
+      if (typeof window.requestIdleCallback === 'function') {
+        window.requestIdleCallback(warmImages);
+      } else {
+        setTimeout(warmImages, 0);
+      }
+
 
       // Глубокая ссылка: index.html открыт как index.html#post=N
       // (из поста — через кнопку мини-аппа с ?startapp=N).
